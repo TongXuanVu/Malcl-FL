@@ -10,7 +10,7 @@ def get_global_label_map():
     return None
 
 def get_client_data(config, client_id, task_id, global_label_map=None):
-    federated_dir = r"c:\FederatedLearning\FL\core\data_split\federated_data"
+    federated_dir = config.train_data if hasattr(config, 'train_data') and config.train_data else r"c:\FederatedLearning\FL\core\data_split\federated_data"
     # Note: task_id in federated_data is 1-indexed (1 to 6)
     path = os.path.join(federated_dir, f"client_{client_id}_task_{task_id}.pt")
     
@@ -33,9 +33,9 @@ def get_client_data(config, client_id, task_id, global_label_map=None):
     return x, y
 
 def get_global_test_data(config, global_label_map=None):
-    test_path = r"c:\FederatedLearning\FL\core\data_split\global_test_data.pt"
+    test_path = config.test_data if hasattr(config, 'test_data') and config.test_data else r"c:\FederatedLearning\FL\core\data_split\global_test_data.pt"
     if not os.path.exists(test_path):
-        raise FileNotFoundError("Global Test Set not found.")
+        raise FileNotFoundError(f"Global Test Set not found at {test_path}.")
         
     test_data = torch.load(test_path, map_location='cpu', weights_only=False)
     if isinstance(test_data, dict):
