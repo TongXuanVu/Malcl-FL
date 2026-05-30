@@ -58,7 +58,7 @@ def get_iter_test_dataset(x, y, n_class):
     selected_indices = np.where(y < n_class)[0] 
     return x[selected_indices], y[selected_indices]
 
-def get_dataloader(x, y, batchsize, n_class, scaler, train = True):
+def get_dataloader(x, y, batchsize, n_class, scaler, train=True, update_scaler=False):
 
     y_ = np.array(y, dtype=int)
 
@@ -77,7 +77,7 @@ def get_dataloader(x, y, batchsize, n_class, scaler, train = True):
     y_ = torch.from_numpy(y_).type(torch.FloatTensor)
 
     # Scaling
-    if train: scaler = scaler.partial_fit(x_)
+    if update_scaler: scaler = scaler.partial_fit(x_)
     x_ = scaler.transform(x_)
     x_ = torch.FloatTensor(x_)
     
