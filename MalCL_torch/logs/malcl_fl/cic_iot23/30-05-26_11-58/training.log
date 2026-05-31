@@ -1,0 +1,965 @@
+2026-05-30 11:58:30,031 [INFO] --- Starting Task 0 ---
+2026-05-30 11:58:34,839 [INFO] 
+--- Task 0, Round 1/30 (Global 1) ---
+2026-05-30 11:59:11,958 [INFO]   Client 0 Loss: 1.3293
+2026-05-30 11:59:12,642 [INFO]   Client 1 Loss: 2.3011
+2026-05-30 12:00:50,638 [INFO]   Client 2 Loss: 1.1595
+2026-05-30 12:03:29,724 [INFO]   Client 3 Loss: 1.2321
+2026-05-30 12:03:31,369 [INFO]   Client 4 Loss: 2.2927
+2026-05-30 12:04:25,111 [INFO] [Task 0 | Round 1/30 | Global 1] Acc: 86.18% | F1-Mac: 15.50% | Loss: 1.6629
+2026-05-30 12:04:25,124 [INFO] 
+--- Task 0, Round 2/30 (Global 2) ---
+2026-05-30 12:04:56,850 [INFO]   Client 0 Loss: 1.1520
+2026-05-30 12:04:57,183 [INFO]   Client 1 Loss: 2.1409
+2026-05-30 12:06:41,654 [INFO]   Client 2 Loss: 1.0991
+2026-05-30 12:09:20,580 [INFO]   Client 3 Loss: 1.1556
+2026-05-30 12:09:22,221 [INFO]   Client 4 Loss: 2.1063
+2026-05-30 12:10:15,864 [INFO] [Task 0 | Round 2/30 | Global 2] Acc: 0.34% | F1-Mac: 0.11% | Loss: 1.5308
+2026-05-30 12:10:15,874 [INFO] 
+--- Task 0, Round 3/30 (Global 3) ---
+2026-05-30 12:10:47,834 [INFO]   Client 0 Loss: 1.1037
+2026-05-30 12:10:48,026 [INFO]   Client 1 Loss: 2.1012
+2026-05-30 12:12:31,953 [INFO]   Client 2 Loss: 1.0716
+2026-05-30 12:15:12,201 [INFO]   Client 3 Loss: 1.1281
+2026-05-30 12:15:13,845 [INFO]   Client 4 Loss: 2.1093
+2026-05-30 12:16:07,665 [INFO] [Task 0 | Round 3/30 | Global 3] Acc: 0.36% | F1-Mac: 0.16% | Loss: 1.5028
+2026-05-30 12:16:07,674 [INFO] 
+--- Task 0, Round 4/30 (Global 4) ---
+2026-05-30 12:16:39,485 [INFO]   Client 0 Loss: 1.0795
+2026-05-30 12:16:39,682 [INFO]   Client 1 Loss: 2.1621
+2026-05-30 12:18:24,378 [INFO]   Client 2 Loss: 1.0547
+2026-05-30 12:21:04,295 [INFO]   Client 3 Loss: 1.1103
+2026-05-30 12:21:06,077 [INFO]   Client 4 Loss: 2.1500
+2026-05-30 12:21:59,926 [INFO] [Task 0 | Round 4/30 | Global 4] Acc: 0.55% | F1-Mac: 0.64% | Loss: 1.5113
+2026-05-30 12:21:59,936 [INFO] 
+--- Task 0, Round 5/30 (Global 5) ---
+2026-05-30 12:22:31,941 [INFO]   Client 0 Loss: 1.0566
+2026-05-30 12:22:32,134 [INFO]   Client 1 Loss: 2.2103
+2026-05-30 12:24:15,997 [INFO]   Client 2 Loss: 1.0428
+2026-05-30 12:26:55,922 [INFO]   Client 3 Loss: 1.0957
+2026-05-30 12:26:57,707 [INFO]   Client 4 Loss: 2.1980
+2026-05-30 12:27:51,420 [INFO] [Task 0 | Round 5/30 | Global 5] Acc: 1.10% | F1-Mac: 1.91% | Loss: 1.5207
+2026-05-30 12:27:51,430 [INFO] 
+--- Task 0, Round 6/30 (Global 6) ---
+2026-05-30 12:28:23,203 [INFO]   Client 0 Loss: 1.0429
+2026-05-30 12:28:23,538 [INFO]   Client 1 Loss: 2.2409
+2026-05-30 12:30:07,391 [INFO]   Client 2 Loss: 1.0326
+2026-05-30 12:32:46,424 [INFO]   Client 3 Loss: 1.0847
+2026-05-30 12:32:48,058 [INFO]   Client 4 Loss: 2.2365
+2026-05-30 12:33:41,834 [INFO] [Task 0 | Round 6/30 | Global 6] Acc: 2.60% | F1-Mac: 4.24% | Loss: 1.5275
+2026-05-30 12:33:41,848 [INFO] 
+--- Task 0, Round 7/30 (Global 7) ---
+2026-05-30 12:34:13,731 [INFO]   Client 0 Loss: 1.0345
+2026-05-30 12:34:13,923 [INFO]   Client 1 Loss: 2.3000
+2026-05-30 12:35:58,477 [INFO]   Client 2 Loss: 1.0239
+2026-05-30 12:38:38,457 [INFO]   Client 3 Loss: 1.0768
+2026-05-30 12:38:40,100 [INFO]   Client 4 Loss: 2.2492
+2026-05-30 12:39:35,510 [INFO] [Task 0 | Round 7/30 | Global 7] Acc: 89.74% | F1-Mac: 32.42% | Loss: 1.5369
+2026-05-30 12:39:35,519 [INFO] 
+--- Task 0, Round 8/30 (Global 8) ---
+2026-05-30 12:40:07,879 [INFO]   Client 0 Loss: 1.0272
+2026-05-30 12:40:08,079 [INFO]   Client 1 Loss: 2.3172
+2026-05-30 12:41:53,031 [INFO]   Client 2 Loss: 1.0163
+2026-05-30 12:44:32,926 [INFO]   Client 3 Loss: 1.0706
+2026-05-30 12:44:34,564 [INFO]   Client 4 Loss: 2.2784
+2026-05-30 12:45:28,506 [INFO] [Task 0 | Round 8/30 | Global 8] Acc: 91.76% | F1-Mac: 37.00% | Loss: 1.5420
+2026-05-30 12:45:28,516 [INFO] 
+--- Task 0, Round 9/30 (Global 9) ---
+2026-05-30 12:46:00,363 [INFO]   Client 0 Loss: 1.0189
+2026-05-30 12:46:00,562 [INFO]   Client 1 Loss: 2.3235
+2026-05-30 12:47:45,237 [INFO]   Client 2 Loss: 1.0100
+2026-05-30 12:50:25,065 [INFO]   Client 3 Loss: 1.0637
+2026-05-30 12:50:26,709 [INFO]   Client 4 Loss: 2.3117
+2026-05-30 12:51:20,756 [INFO] [Task 0 | Round 9/30 | Global 9] Acc: 93.02% | F1-Mac: 39.16% | Loss: 1.5456
+2026-05-30 12:51:20,766 [INFO] 
+--- Task 0, Round 10/30 (Global 10) ---
+2026-05-30 12:51:52,601 [INFO]   Client 0 Loss: 1.0144
+2026-05-30 12:51:52,796 [INFO]   Client 1 Loss: 2.3546
+2026-05-30 12:53:37,323 [INFO]   Client 2 Loss: 1.0033
+2026-05-30 12:56:17,024 [INFO]   Client 3 Loss: 1.0592
+2026-05-30 12:56:18,816 [INFO]   Client 4 Loss: 2.3466
+2026-05-30 12:57:12,634 [INFO] [Task 0 | Round 10/30 | Global 10] Acc: 93.07% | F1-Mac: 39.26% | Loss: 1.5556
+2026-05-30 12:57:12,643 [INFO] 
+--- Task 0, Round 11/30 (Global 11) ---
+2026-05-30 12:57:44,667 [INFO]   Client 0 Loss: 1.0086
+2026-05-30 12:57:44,859 [INFO]   Client 1 Loss: 2.3997
+2026-05-30 12:59:28,526 [INFO]   Client 2 Loss: 1.0004
+2026-05-30 13:02:06,774 [INFO]   Client 3 Loss: 1.0538
+2026-05-30 13:02:08,554 [INFO]   Client 4 Loss: 2.3334
+2026-05-30 13:03:01,980 [INFO] [Task 0 | Round 11/30 | Global 11] Acc: 93.72% | F1-Mac: 39.46% | Loss: 1.5592
+2026-05-30 13:03:01,989 [INFO] 
+--- Task 0, Round 12/30 (Global 12) ---
+2026-05-30 13:03:33,517 [INFO]   Client 0 Loss: 1.0091
+2026-05-30 13:03:33,851 [INFO]   Client 1 Loss: 2.4174
+2026-05-30 13:05:17,481 [INFO]   Client 2 Loss: 0.9952
+2026-05-30 13:07:56,327 [INFO]   Client 3 Loss: 1.0492
+2026-05-30 13:07:57,968 [INFO]   Client 4 Loss: 2.3784
+2026-05-30 13:08:51,323 [INFO] [Task 0 | Round 12/30 | Global 12] Acc: 93.57% | F1-Mac: 39.71% | Loss: 1.5699
+2026-05-30 13:08:51,333 [INFO] 
+--- Task 0, Round 13/30 (Global 13) ---
+2026-05-30 13:09:23,044 [INFO]   Client 0 Loss: 0.9972
+2026-05-30 13:09:23,237 [INFO]   Client 1 Loss: 2.3691
+2026-05-30 13:11:07,065 [INFO]   Client 2 Loss: 0.9899
+2026-05-30 13:13:45,871 [INFO]   Client 3 Loss: 1.0457
+2026-05-30 13:13:47,511 [INFO]   Client 4 Loss: 2.3690
+2026-05-30 13:14:40,846 [INFO] [Task 0 | Round 13/30 | Global 13] Acc: 92.95% | F1-Mac: 39.22% | Loss: 1.5542
+2026-05-30 13:14:40,855 [INFO] 
+--- Task 0, Round 14/30 (Global 14) ---
+2026-05-30 13:15:12,769 [INFO]   Client 0 Loss: 0.9941
+2026-05-30 13:15:12,961 [INFO]   Client 1 Loss: 2.4332
+2026-05-30 13:16:57,710 [INFO]   Client 2 Loss: 0.9844
+2026-05-30 13:19:37,765 [INFO]   Client 3 Loss: 1.0423
+2026-05-30 13:19:39,416 [INFO]   Client 4 Loss: 2.3843
+2026-05-30 13:20:32,896 [INFO] [Task 0 | Round 14/30 | Global 14] Acc: 93.27% | F1-Mac: 39.51% | Loss: 1.5677
+2026-05-30 13:20:32,906 [INFO] 
+--- Task 0, Round 15/30 (Global 15) ---
+2026-05-30 13:21:04,551 [INFO]   Client 0 Loss: 0.9905
+2026-05-30 13:21:04,747 [INFO]   Client 1 Loss: 2.4368
+2026-05-30 13:22:48,909 [INFO]   Client 2 Loss: 0.9827
+2026-05-30 13:25:27,693 [INFO]   Client 3 Loss: 1.0383
+2026-05-30 13:25:29,333 [INFO]   Client 4 Loss: 2.4028
+2026-05-30 13:26:22,750 [INFO] [Task 0 | Round 15/30 | Global 15] Acc: 94.45% | F1-Mac: 40.71% | Loss: 1.5702
+2026-05-30 13:26:22,759 [INFO] 
+--- Task 0, Round 16/30 (Global 16) ---
+2026-05-30 13:26:54,418 [INFO]   Client 0 Loss: 0.9882
+2026-05-30 13:26:54,614 [INFO]   Client 1 Loss: 2.3926
+2026-05-30 13:28:38,375 [INFO]   Client 2 Loss: 0.9813
+2026-05-30 13:31:16,570 [INFO]   Client 3 Loss: 1.0352
+2026-05-30 13:31:18,350 [INFO]   Client 4 Loss: 2.4253
+2026-05-30 13:32:11,434 [INFO] [Task 0 | Round 16/30 | Global 16] Acc: 94.16% | F1-Mac: 40.63% | Loss: 1.5645
+2026-05-30 13:32:11,443 [INFO] 
+--- Task 0, Round 17/30 (Global 17) ---
+2026-05-30 13:32:43,130 [INFO]   Client 0 Loss: 0.9843
+2026-05-30 13:32:43,326 [INFO]   Client 1 Loss: 2.4439
+2026-05-30 13:34:27,343 [INFO]   Client 2 Loss: 0.9757
+2026-05-30 13:37:06,247 [INFO]   Client 3 Loss: 1.0330
+2026-05-30 13:37:08,028 [INFO]   Client 4 Loss: 2.4403
+2026-05-30 13:38:01,626 [INFO] [Task 0 | Round 17/30 | Global 17] Acc: 94.89% | F1-Mac: 41.47% | Loss: 1.5754
+2026-05-30 13:38:01,636 [INFO] 
+--- Task 0, Round 18/30 (Global 18) ---
+2026-05-30 13:38:33,165 [INFO]   Client 0 Loss: 0.9818
+2026-05-30 13:38:33,501 [INFO]   Client 1 Loss: 2.4601
+2026-05-30 13:40:17,633 [INFO]   Client 2 Loss: 0.9748
+2026-05-30 13:42:56,820 [INFO]   Client 3 Loss: 1.0315
+2026-05-30 13:42:58,464 [INFO]   Client 4 Loss: 2.4441
+2026-05-30 13:43:51,961 [INFO] [Task 0 | Round 18/30 | Global 18] Acc: 94.94% | F1-Mac: 41.26% | Loss: 1.5785
+2026-05-30 13:43:51,971 [INFO] 
+--- Task 0, Round 19/30 (Global 19) ---
+2026-05-30 13:44:23,755 [INFO]   Client 0 Loss: 0.9793
+2026-05-30 13:44:23,946 [INFO]   Client 1 Loss: 2.4452
+2026-05-30 13:46:08,342 [INFO]   Client 2 Loss: 0.9702
+2026-05-30 13:48:46,750 [INFO]   Client 3 Loss: 1.0277
+2026-05-30 13:48:48,382 [INFO]   Client 4 Loss: 2.4407
+2026-05-30 13:49:41,865 [INFO] [Task 0 | Round 19/30 | Global 19] Acc: 94.96% | F1-Mac: 41.42% | Loss: 1.5726
+2026-05-30 13:49:41,874 [INFO] 
+--- Task 0, Round 20/30 (Global 20) ---
+2026-05-30 13:50:13,615 [INFO]   Client 0 Loss: 0.9750
+2026-05-30 13:50:13,808 [INFO]   Client 1 Loss: 2.4296
+2026-05-30 13:51:57,494 [INFO]   Client 2 Loss: 0.9674
+2026-05-30 13:54:35,570 [INFO]   Client 3 Loss: 1.0257
+2026-05-30 13:54:37,212 [INFO]   Client 4 Loss: 2.4384
+2026-05-30 13:55:30,560 [INFO] [Task 0 | Round 20/30 | Global 20] Acc: 94.93% | F1-Mac: 41.38% | Loss: 1.5672
+2026-05-30 13:55:30,570 [INFO] 
+--- Task 0, Round 21/30 (Global 21) ---
+2026-05-30 13:56:02,280 [INFO]   Client 0 Loss: 0.9744
+2026-05-30 13:56:02,480 [INFO]   Client 1 Loss: 2.4911
+2026-05-30 13:57:46,322 [INFO]   Client 2 Loss: 0.9666
+2026-05-30 14:00:23,965 [INFO]   Client 3 Loss: 1.0223
+2026-05-30 14:00:25,607 [INFO]   Client 4 Loss: 2.4334
+2026-05-30 14:01:18,950 [INFO] [Task 0 | Round 21/30 | Global 21] Acc: 95.64% | F1-Mac: 42.20% | Loss: 1.5776
+2026-05-30 14:01:18,960 [INFO] 
+--- Task 0, Round 22/30 (Global 22) ---
+2026-05-30 14:01:50,594 [INFO]   Client 0 Loss: 0.9736
+2026-05-30 14:01:50,786 [INFO]   Client 1 Loss: 2.5430
+2026-05-30 14:03:34,398 [INFO]   Client 2 Loss: 0.9642
+2026-05-30 14:06:14,272 [INFO]   Client 3 Loss: 1.0213
+2026-05-30 14:06:16,060 [INFO]   Client 4 Loss: 2.4515
+2026-05-30 14:07:11,497 [INFO] [Task 0 | Round 22/30 | Global 22] Acc: 96.27% | F1-Mac: 42.59% | Loss: 1.5907
+2026-05-30 14:07:11,507 [INFO] 
+--- Task 0, Round 23/30 (Global 23) ---
+2026-05-30 14:07:43,569 [INFO]   Client 0 Loss: 0.9743
+2026-05-30 14:07:43,761 [INFO]   Client 1 Loss: 2.5356
+2026-05-30 14:09:27,496 [INFO]   Client 2 Loss: 0.9610
+2026-05-30 14:12:06,614 [INFO]   Client 3 Loss: 1.0203
+2026-05-30 14:12:08,397 [INFO]   Client 4 Loss: 2.4646
+2026-05-30 14:13:02,406 [INFO] [Task 0 | Round 23/30 | Global 23] Acc: 95.38% | F1-Mac: 41.85% | Loss: 1.5912
+2026-05-30 14:13:02,415 [INFO] 
+--- Task 0, Round 24/30 (Global 24) ---
+2026-05-30 14:13:34,152 [INFO]   Client 0 Loss: 0.9681
+2026-05-30 14:13:34,484 [INFO]   Client 1 Loss: 2.5189
+2026-05-30 14:15:17,996 [INFO]   Client 2 Loss: 0.9601
+2026-05-30 14:17:56,600 [INFO]   Client 3 Loss: 1.0176
+2026-05-30 14:17:58,241 [INFO]   Client 4 Loss: 2.4645
+2026-05-30 14:18:52,445 [INFO] [Task 0 | Round 24/30 | Global 24] Acc: 94.50% | F1-Mac: 40.67% | Loss: 1.5858
+2026-05-30 14:18:52,455 [INFO] 
+--- Task 0, Round 25/30 (Global 25) ---
+2026-05-30 14:19:24,203 [INFO]   Client 0 Loss: 0.9731
+2026-05-30 14:19:24,408 [INFO]   Client 1 Loss: 2.5024
+2026-05-30 14:21:09,044 [INFO]   Client 2 Loss: 0.9583
+2026-05-30 14:23:48,977 [INFO]   Client 3 Loss: 1.0173
+2026-05-30 14:23:50,616 [INFO]   Client 4 Loss: 2.4756
+2026-05-30 14:24:44,536 [INFO] [Task 0 | Round 25/30 | Global 25] Acc: 95.86% | F1-Mac: 42.41% | Loss: 1.5854
+2026-05-30 14:24:44,545 [INFO] 
+--- Task 0, Round 26/30 (Global 26) ---
+2026-05-30 14:25:16,012 [INFO]   Client 0 Loss: 0.9645
+2026-05-30 14:25:16,206 [INFO]   Client 1 Loss: 2.5496
+2026-05-30 14:27:00,717 [INFO]   Client 2 Loss: 0.9564
+2026-05-30 14:29:39,001 [INFO]   Client 3 Loss: 1.0160
+2026-05-30 14:29:40,631 [INFO]   Client 4 Loss: 2.5131
+2026-05-30 14:30:35,224 [INFO] [Task 0 | Round 26/30 | Global 26] Acc: 95.57% | F1-Mac: 41.81% | Loss: 1.5999
+2026-05-30 14:30:35,234 [INFO] 
+--- Task 0, Round 27/30 (Global 27) ---
+2026-05-30 14:31:07,471 [INFO]   Client 0 Loss: 0.9645
+2026-05-30 14:31:07,663 [INFO]   Client 1 Loss: 2.5395
+2026-05-30 14:32:51,992 [INFO]   Client 2 Loss: 0.9544
+2026-05-30 14:35:31,553 [INFO]   Client 3 Loss: 1.0153
+2026-05-30 14:35:33,191 [INFO]   Client 4 Loss: 2.4893
+2026-05-30 14:36:26,860 [INFO] [Task 0 | Round 27/30 | Global 27] Acc: 94.70% | F1-Mac: 40.69% | Loss: 1.5926
+2026-05-30 14:36:26,869 [INFO] 
+--- Task 0, Round 28/30 (Global 28) ---
+2026-05-30 14:36:58,481 [INFO]   Client 0 Loss: 0.9645
+2026-05-30 14:36:58,671 [INFO]   Client 1 Loss: 2.5553
+2026-05-30 14:38:42,790 [INFO]   Client 2 Loss: 0.9552
+2026-05-30 14:41:22,126 [INFO]   Client 3 Loss: 1.0113
+2026-05-30 14:41:23,899 [INFO]   Client 4 Loss: 2.4949
+2026-05-30 14:42:17,448 [INFO] [Task 0 | Round 28/30 | Global 28] Acc: 94.49% | F1-Mac: 40.51% | Loss: 1.5962
+2026-05-30 14:42:17,458 [INFO] 
+--- Task 0, Round 29/30 (Global 29) ---
+2026-05-30 14:42:49,412 [INFO]   Client 0 Loss: 0.9628
+2026-05-30 14:42:49,618 [INFO]   Client 1 Loss: 2.5420
+2026-05-30 14:44:32,874 [INFO]   Client 2 Loss: 0.9537
+2026-05-30 14:47:11,413 [INFO]   Client 3 Loss: 1.0108
+2026-05-30 14:47:13,187 [INFO]   Client 4 Loss: 2.5080
+2026-05-30 14:48:06,890 [INFO] [Task 0 | Round 29/30 | Global 29] Acc: 93.66% | F1-Mac: 39.70% | Loss: 1.5955
+2026-05-30 14:48:06,900 [INFO] 
+--- Task 0, Round 30/30 (Global 30) ---
+2026-05-30 14:48:38,401 [INFO]   Client 0 Loss: 0.9601
+2026-05-30 14:48:38,739 [INFO]   Client 1 Loss: 2.5517
+2026-05-30 14:50:22,634 [INFO]   Client 2 Loss: 0.9502
+2026-05-30 14:53:01,361 [INFO]   Client 3 Loss: 1.0097
+2026-05-30 14:53:03,010 [INFO]   Client 4 Loss: 2.5192
+2026-05-30 14:53:56,630 [INFO] [Task 0 | Round 30/30 | Global 30] Acc: 93.15% | F1-Mac: 39.14% | Loss: 1.5982
+2026-05-30 14:53:56,639 [INFO] Task 0 finished. Computing statistics for replay across clients...
+2026-05-30 14:54:54,865 [INFO] Task 0 fully completed.
+2026-05-30 14:54:55,006 [INFO] --- Starting Task 1 ---
+2026-05-30 14:55:00,799 [INFO] Expanding Global Classifier: 6 -> 12
+2026-05-30 14:55:02,703 [INFO] 
+--- Task 1, Round 1/30 (Global 31) ---
+2026-05-30 14:55:03,377 [INFO]   Client 0 Loss: 9.8558
+2026-05-30 14:55:17,561 [INFO]   Client 1 Loss: 7.7456
+2026-05-30 14:55:19,578 [INFO]   Client 2 Loss: 12.1547
+2026-05-30 14:55:29,786 [INFO]   Client 3 Loss: 7.7999
+2026-05-30 14:57:19,358 [INFO]   Client 4 Loss: 6.7337
+2026-05-30 15:00:14,635 [INFO]   Client 5 Loss: 6.4347
+2026-05-30 15:02:04,945 [INFO] [Task 1 | Round 1/30 | Global 31] Acc: 33.02% | F1-Mac: 4.56% | Loss: 8.4541
+2026-05-30 15:02:04,962 [INFO] 
+--- Task 1, Round 2/30 (Global 32) ---
+2026-05-30 15:02:05,615 [INFO]   Client 0 Loss: 7.8615
+2026-05-30 15:02:19,644 [INFO]   Client 1 Loss: 7.1723
+2026-05-30 15:02:19,884 [INFO]   Client 2 Loss: 7.8626
+2026-05-30 15:02:29,993 [INFO]   Client 3 Loss: 7.2173
+2026-05-30 15:04:19,876 [INFO]   Client 4 Loss: 6.2989
+2026-05-30 15:07:15,908 [INFO]   Client 5 Loss: 6.1913
+2026-05-30 15:09:06,870 [INFO] [Task 1 | Round 2/30 | Global 32] Acc: 33.54% | F1-Mac: 5.93% | Loss: 7.1006
+2026-05-30 15:09:06,885 [INFO] 
+--- Task 1, Round 3/30 (Global 33) ---
+2026-05-30 15:09:07,532 [INFO]   Client 0 Loss: 7.5939
+2026-05-30 15:09:21,117 [INFO]   Client 1 Loss: 6.9807
+2026-05-30 15:09:21,343 [INFO]   Client 2 Loss: 7.4699
+2026-05-30 15:09:31,409 [INFO]   Client 3 Loss: 6.9966
+2026-05-30 15:11:22,093 [INFO]   Client 4 Loss: 6.1875
+2026-05-30 15:14:17,916 [INFO]   Client 5 Loss: 6.1058
+2026-05-30 15:16:08,971 [INFO] [Task 1 | Round 3/30 | Global 33] Acc: 33.15% | F1-Mac: 5.06% | Loss: 6.8891
+2026-05-30 15:16:08,987 [INFO] 
+--- Task 1, Round 4/30 (Global 34) ---
+2026-05-30 15:16:09,630 [INFO]   Client 0 Loss: 7.6943
+2026-05-30 15:16:23,010 [INFO]   Client 1 Loss: 6.9299
+2026-05-30 15:16:23,240 [INFO]   Client 2 Loss: 7.5729
+2026-05-30 15:16:33,120 [INFO]   Client 3 Loss: 6.9374
+2026-05-30 15:18:23,271 [INFO]   Client 4 Loss: 6.1321
+2026-05-30 15:21:18,886 [INFO]   Client 5 Loss: 6.0660
+2026-05-30 15:23:10,295 [INFO] [Task 1 | Round 4/30 | Global 34] Acc: 33.40% | F1-Mac: 5.88% | Loss: 6.8888
+2026-05-30 15:23:10,311 [INFO] 
+--- Task 1, Round 5/30 (Global 35) ---
+2026-05-30 15:23:10,965 [INFO]   Client 0 Loss: 7.7564
+2026-05-30 15:23:24,358 [INFO]   Client 1 Loss: 6.9150
+2026-05-30 15:23:24,723 [INFO]   Client 2 Loss: 7.5948
+2026-05-30 15:23:34,699 [INFO]   Client 3 Loss: 6.9070
+2026-05-30 15:25:24,961 [INFO]   Client 4 Loss: 6.1004
+2026-05-30 15:28:20,962 [INFO]   Client 5 Loss: 6.0389
+2026-05-30 15:30:13,292 [INFO] [Task 1 | Round 5/30 | Global 35] Acc: 33.42% | F1-Mac: 5.94% | Loss: 6.8854
+2026-05-30 15:30:13,309 [INFO] 
+--- Task 1, Round 6/30 (Global 36) ---
+2026-05-30 15:30:13,965 [INFO]   Client 0 Loss: 7.8774
+2026-05-30 15:30:27,581 [INFO]   Client 1 Loss: 6.8638
+2026-05-30 15:30:27,808 [INFO]   Client 2 Loss: 7.7685
+2026-05-30 15:30:37,749 [INFO]   Client 3 Loss: 6.8969
+2026-05-30 15:32:27,850 [INFO]   Client 4 Loss: 6.0708
+2026-05-30 15:35:23,813 [INFO]   Client 5 Loss: 6.0238
+2026-05-30 15:37:15,899 [INFO] [Task 1 | Round 6/30 | Global 36] Acc: 33.43% | F1-Mac: 5.86% | Loss: 6.9169
+2026-05-30 15:37:15,916 [INFO] 
+--- Task 1, Round 7/30 (Global 37) ---
+2026-05-30 15:37:16,561 [INFO]   Client 0 Loss: 7.8322
+2026-05-30 15:37:29,980 [INFO]   Client 1 Loss: 6.8712
+2026-05-30 15:37:30,207 [INFO]   Client 2 Loss: 7.6645
+2026-05-30 15:37:40,169 [INFO]   Client 3 Loss: 6.8706
+2026-05-30 15:39:30,737 [INFO]   Client 4 Loss: 6.0562
+2026-05-30 15:42:27,025 [INFO]   Client 5 Loss: 6.0119
+2026-05-30 15:44:18,964 [INFO] [Task 1 | Round 7/30 | Global 37] Acc: 33.76% | F1-Mac: 6.52% | Loss: 6.8844
+2026-05-30 15:44:18,980 [INFO] 
+--- Task 1, Round 8/30 (Global 38) ---
+2026-05-30 15:44:19,621 [INFO]   Client 0 Loss: 7.8219
+2026-05-30 15:44:32,980 [INFO]   Client 1 Loss: 6.8698
+2026-05-30 15:44:33,205 [INFO]   Client 2 Loss: 7.6918
+2026-05-30 15:44:43,070 [INFO]   Client 3 Loss: 6.8640
+2026-05-30 15:46:33,431 [INFO]   Client 4 Loss: 6.0442
+2026-05-30 15:49:29,152 [INFO]   Client 5 Loss: 6.0017
+2026-05-30 15:51:21,890 [INFO] [Task 1 | Round 8/30 | Global 38] Acc: 33.74% | F1-Mac: 6.42% | Loss: 6.8823
+2026-05-30 15:51:21,907 [INFO] 
+--- Task 1, Round 9/30 (Global 39) ---
+2026-05-30 15:51:22,560 [INFO]   Client 0 Loss: 8.0111
+2026-05-30 15:51:36,143 [INFO]   Client 1 Loss: 6.8661
+2026-05-30 15:51:36,369 [INFO]   Client 2 Loss: 7.7086
+2026-05-30 15:51:46,254 [INFO]   Client 3 Loss: 6.8707
+2026-05-30 15:53:36,360 [INFO]   Client 4 Loss: 6.0364
+2026-05-30 15:56:32,124 [INFO]   Client 5 Loss: 5.9950
+2026-05-30 15:58:24,043 [INFO] [Task 1 | Round 9/30 | Global 39] Acc: 33.65% | F1-Mac: 6.21% | Loss: 6.9147
+2026-05-30 15:58:24,059 [INFO] 
+--- Task 1, Round 10/30 (Global 40) ---
+2026-05-30 15:58:24,700 [INFO]   Client 0 Loss: 7.9847
+2026-05-30 15:58:38,131 [INFO]   Client 1 Loss: 6.8717
+2026-05-30 15:58:38,354 [INFO]   Client 2 Loss: 7.7960
+2026-05-30 15:58:48,248 [INFO]   Client 3 Loss: 6.8536
+2026-05-30 16:00:38,790 [INFO]   Client 4 Loss: 6.0251
+2026-05-30 16:03:34,094 [INFO]   Client 5 Loss: 5.9955
+2026-05-30 16:05:25,519 [INFO] [Task 1 | Round 10/30 | Global 40] Acc: 33.70% | F1-Mac: 6.28% | Loss: 6.9211
+2026-05-30 16:05:25,535 [INFO] 
+--- Task 1, Round 11/30 (Global 41) ---
+2026-05-30 16:05:26,187 [INFO]   Client 0 Loss: 8.1222
+2026-05-30 16:05:39,835 [INFO]   Client 1 Loss: 6.8634
+2026-05-30 16:05:40,064 [INFO]   Client 2 Loss: 7.6741
+2026-05-30 16:05:49,970 [INFO]   Client 3 Loss: 6.8627
+2026-05-30 16:07:39,985 [INFO]   Client 4 Loss: 6.0162
+2026-05-30 16:10:35,241 [INFO]   Client 5 Loss: 5.9905
+2026-05-30 16:12:26,958 [INFO] [Task 1 | Round 11/30 | Global 41] Acc: 33.65% | F1-Mac: 6.17% | Loss: 6.9215
+2026-05-30 16:12:26,974 [INFO] 
+--- Task 1, Round 12/30 (Global 42) ---
+2026-05-30 16:12:27,624 [INFO]   Client 0 Loss: 8.1706
+2026-05-30 16:12:40,999 [INFO]   Client 1 Loss: 6.8881
+2026-05-30 16:12:41,378 [INFO]   Client 2 Loss: 7.8763
+2026-05-30 16:12:51,124 [INFO]   Client 3 Loss: 6.8526
+2026-05-30 16:14:41,633 [INFO]   Client 4 Loss: 6.0166
+2026-05-30 16:17:37,629 [INFO]   Client 5 Loss: 5.9833
+2026-05-30 16:19:28,499 [INFO] [Task 1 | Round 12/30 | Global 42] Acc: 33.84% | F1-Mac: 6.54% | Loss: 6.9646
+2026-05-30 16:19:28,515 [INFO] 
+--- Task 1, Round 13/30 (Global 43) ---
+2026-05-30 16:19:29,304 [INFO]   Client 0 Loss: 8.1678
+2026-05-30 16:19:42,649 [INFO]   Client 1 Loss: 6.8474
+2026-05-30 16:19:42,880 [INFO]   Client 2 Loss: 7.7510
+2026-05-30 16:19:52,777 [INFO]   Client 3 Loss: 6.8687
+2026-05-30 16:21:42,533 [INFO]   Client 4 Loss: 6.0162
+2026-05-30 16:24:37,965 [INFO]   Client 5 Loss: 5.9808
+2026-05-30 16:26:29,256 [INFO] [Task 1 | Round 13/30 | Global 43] Acc: 33.53% | F1-Mac: 5.94% | Loss: 6.9386
+2026-05-30 16:26:29,274 [INFO] 
+--- Task 1, Round 14/30 (Global 44) ---
+2026-05-30 16:26:29,916 [INFO]   Client 0 Loss: 8.0737
+2026-05-30 16:26:43,478 [INFO]   Client 1 Loss: 6.8568
+2026-05-30 16:26:43,706 [INFO]   Client 2 Loss: 7.8290
+2026-05-30 16:26:53,578 [INFO]   Client 3 Loss: 6.8635
+2026-05-30 16:28:43,392 [INFO]   Client 4 Loss: 6.0119
+2026-05-30 16:31:38,473 [INFO]   Client 5 Loss: 5.9762
+2026-05-30 16:33:35,088 [INFO] [Task 1 | Round 14/30 | Global 44] Acc: 33.46% | F1-Mac: 5.76% | Loss: 6.9352
+2026-05-30 16:33:35,106 [INFO] 
+--- Task 1, Round 15/30 (Global 45) ---
+2026-05-30 16:33:35,760 [INFO]   Client 0 Loss: 8.0553
+2026-05-30 16:33:49,437 [INFO]   Client 1 Loss: 6.8567
+2026-05-30 16:33:49,671 [INFO]   Client 2 Loss: 7.7609
+2026-05-30 16:33:59,736 [INFO]   Client 3 Loss: 6.8402
+2026-05-30 16:35:52,204 [INFO]   Client 4 Loss: 5.9979
+2026-05-30 16:38:51,383 [INFO]   Client 5 Loss: 5.9766
+2026-05-30 16:40:56,994 [INFO] [Task 1 | Round 15/30 | Global 45] Acc: 33.42% | F1-Mac: 5.70% | Loss: 6.9146
+2026-05-30 16:40:57,012 [INFO] 
+--- Task 1, Round 16/30 (Global 46) ---
+2026-05-30 16:40:57,666 [INFO]   Client 0 Loss: 8.0557
+2026-05-30 16:41:11,592 [INFO]   Client 1 Loss: 6.8617
+2026-05-30 16:41:11,821 [INFO]   Client 2 Loss: 7.8111
+2026-05-30 16:41:21,915 [INFO]   Client 3 Loss: 6.8775
+2026-05-30 16:43:15,187 [INFO]   Client 4 Loss: 5.9960
+2026-05-30 16:46:15,580 [INFO]   Client 5 Loss: 5.9759
+2026-05-30 16:48:22,401 [INFO] [Task 1 | Round 16/30 | Global 46] Acc: 33.70% | F1-Mac: 6.25% | Loss: 6.9297
+2026-05-30 16:48:22,420 [INFO] 
+--- Task 1, Round 17/30 (Global 47) ---
+2026-05-30 16:48:23,081 [INFO]   Client 0 Loss: 8.3086
+2026-05-30 16:48:36,995 [INFO]   Client 1 Loss: 6.8555
+2026-05-30 16:48:37,230 [INFO]   Client 2 Loss: 7.8158
+2026-05-30 16:48:47,208 [INFO]   Client 3 Loss: 6.8531
+2026-05-30 16:50:40,797 [INFO]   Client 4 Loss: 5.9958
+2026-05-30 16:53:41,961 [INFO]   Client 5 Loss: 5.9714
+2026-05-30 16:55:49,264 [INFO] [Task 1 | Round 17/30 | Global 47] Acc: 33.53% | F1-Mac: 5.93% | Loss: 6.9667
+2026-05-30 16:55:49,284 [INFO] 
+--- Task 1, Round 18/30 (Global 48) ---
+2026-05-30 16:55:49,944 [INFO]   Client 0 Loss: 8.3335
+2026-05-30 16:56:03,878 [INFO]   Client 1 Loss: 6.8496
+2026-05-30 16:56:04,114 [INFO]   Client 2 Loss: 7.9975
+2026-05-30 16:56:14,223 [INFO]   Client 3 Loss: 6.8436
+2026-05-30 16:58:08,314 [INFO]   Client 4 Loss: 5.9938
+2026-05-30 17:01:09,307 [INFO]   Client 5 Loss: 5.9645
+2026-05-30 17:03:18,217 [INFO] [Task 1 | Round 18/30 | Global 48] Acc: 33.82% | F1-Mac: 6.51% | Loss: 6.9971
+2026-05-30 17:03:18,236 [INFO] 
+--- Task 1, Round 19/30 (Global 49) ---
+2026-05-30 17:03:18,896 [INFO]   Client 0 Loss: 8.3457
+2026-05-30 17:03:32,818 [INFO]   Client 1 Loss: 6.8482
+2026-05-30 17:03:33,053 [INFO]   Client 2 Loss: 7.8058
+2026-05-30 17:03:43,164 [INFO]   Client 3 Loss: 6.8538
+2026-05-30 17:05:36,825 [INFO]   Client 4 Loss: 5.9910
+2026-05-30 17:08:36,531 [INFO]   Client 5 Loss: 5.9695
+2026-05-30 17:10:44,735 [INFO] [Task 1 | Round 19/30 | Global 49] Acc: 33.50% | F1-Mac: 5.88% | Loss: 6.9690
+2026-05-30 17:10:44,754 [INFO] 
+--- Task 1, Round 20/30 (Global 50) ---
+2026-05-30 17:10:45,411 [INFO]   Client 0 Loss: 8.0675
+2026-05-30 17:10:59,170 [INFO]   Client 1 Loss: 6.8473
+2026-05-30 17:10:59,402 [INFO]   Client 2 Loss: 7.9283
+2026-05-30 17:11:09,537 [INFO]   Client 3 Loss: 6.8457
+2026-05-30 17:13:03,665 [INFO]   Client 4 Loss: 5.9899
+2026-05-30 17:16:04,988 [INFO]   Client 5 Loss: 5.9656
+2026-05-30 17:18:05,062 [INFO] [Task 1 | Round 20/30 | Global 50] Acc: 33.84% | F1-Mac: 6.29% | Loss: 6.9407
+2026-05-30 17:18:05,080 [INFO] 
+--- Task 1, Round 21/30 (Global 51) ---
+2026-05-30 17:18:05,725 [INFO]   Client 0 Loss: 8.5581
+2026-05-30 17:18:19,383 [INFO]   Client 1 Loss: 6.8453
+2026-05-30 17:18:19,614 [INFO]   Client 2 Loss: 7.8042
+2026-05-30 17:18:29,574 [INFO]   Client 3 Loss: 6.8593
+2026-05-30 17:20:20,789 [INFO]   Client 4 Loss: 5.9861
+2026-05-30 17:23:17,055 [INFO]   Client 5 Loss: 5.9694
+2026-05-30 17:25:11,201 [INFO] [Task 1 | Round 21/30 | Global 51] Acc: 33.45% | F1-Mac: 5.76% | Loss: 7.0037
+2026-05-30 17:25:11,217 [INFO] 
+--- Task 1, Round 22/30 (Global 52) ---
+2026-05-30 17:25:11,870 [INFO]   Client 0 Loss: 8.2348
+2026-05-30 17:25:25,368 [INFO]   Client 1 Loss: 6.8497
+2026-05-30 17:25:25,754 [INFO]   Client 2 Loss: 7.9381
+2026-05-30 17:25:35,544 [INFO]   Client 3 Loss: 6.8572
+2026-05-30 17:27:25,774 [INFO]   Client 4 Loss: 5.9835
+2026-05-30 17:30:21,031 [INFO]   Client 5 Loss: 5.9589
+2026-05-30 17:32:11,735 [INFO] [Task 1 | Round 22/30 | Global 52] Acc: 33.30% | F1-Mac: 5.44% | Loss: 6.9704
+2026-05-30 17:32:11,751 [INFO] 
+--- Task 1, Round 23/30 (Global 53) ---
+2026-05-30 17:32:12,565 [INFO]   Client 0 Loss: 8.2078
+2026-05-30 17:32:26,092 [INFO]   Client 1 Loss: 6.8328
+2026-05-30 17:32:26,311 [INFO]   Client 2 Loss: 7.9036
+2026-05-30 17:32:36,410 [INFO]   Client 3 Loss: 6.8565
+2026-05-30 17:34:26,081 [INFO]   Client 4 Loss: 5.9770
+2026-05-30 17:37:21,630 [INFO]   Client 5 Loss: 5.9625
+2026-05-30 17:39:13,597 [INFO] [Task 1 | Round 23/30 | Global 53] Acc: 33.40% | F1-Mac: 5.67% | Loss: 6.9567
+2026-05-30 17:39:13,613 [INFO] 
+--- Task 1, Round 24/30 (Global 54) ---
+2026-05-30 17:39:14,266 [INFO]   Client 0 Loss: 8.0245
+2026-05-30 17:39:28,087 [INFO]   Client 1 Loss: 6.8335
+2026-05-30 17:39:28,320 [INFO]   Client 2 Loss: 7.9053
+2026-05-30 17:39:38,370 [INFO]   Client 3 Loss: 6.8342
+2026-05-30 17:41:28,030 [INFO]   Client 4 Loss: 5.9820
+2026-05-30 17:44:22,577 [INFO]   Client 5 Loss: 5.9597
+2026-05-30 17:46:13,167 [INFO] [Task 1 | Round 24/30 | Global 54] Acc: 33.36% | F1-Mac: 5.49% | Loss: 6.9232
+2026-05-30 17:46:13,185 [INFO] 
+--- Task 1, Round 25/30 (Global 55) ---
+2026-05-30 17:46:13,845 [INFO]   Client 0 Loss: 8.4001
+2026-05-30 17:46:27,377 [INFO]   Client 1 Loss: 6.8249
+2026-05-30 17:46:27,610 [INFO]   Client 2 Loss: 7.9359
+2026-05-30 17:46:37,629 [INFO]   Client 3 Loss: 6.8206
+2026-05-30 17:48:27,470 [INFO]   Client 4 Loss: 5.9793
+2026-05-30 17:51:22,291 [INFO]   Client 5 Loss: 5.9588
+2026-05-30 17:53:14,780 [INFO] [Task 1 | Round 25/30 | Global 55] Acc: 33.27% | F1-Mac: 5.37% | Loss: 6.9866
+2026-05-30 17:53:14,797 [INFO] 
+--- Task 1, Round 26/30 (Global 56) ---
+2026-05-30 17:53:15,459 [INFO]   Client 0 Loss: 8.2765
+2026-05-30 17:53:29,180 [INFO]   Client 1 Loss: 6.8264
+2026-05-30 17:53:29,407 [INFO]   Client 2 Loss: 7.9684
+2026-05-30 17:53:39,472 [INFO]   Client 3 Loss: 6.8326
+2026-05-30 17:55:29,561 [INFO]   Client 4 Loss: 5.9731
+2026-05-30 17:58:23,784 [INFO]   Client 5 Loss: 5.9577
+2026-05-30 18:00:14,250 [INFO] [Task 1 | Round 26/30 | Global 56] Acc: 33.70% | F1-Mac: 5.73% | Loss: 6.9725
+2026-05-30 18:00:14,266 [INFO] 
+--- Task 1, Round 27/30 (Global 57) ---
+2026-05-30 18:00:14,917 [INFO]   Client 0 Loss: 8.3106
+2026-05-30 18:00:28,622 [INFO]   Client 1 Loss: 6.8335
+2026-05-30 18:00:28,851 [INFO]   Client 2 Loss: 7.8673
+2026-05-30 18:00:38,734 [INFO]   Client 3 Loss: 6.8060
+2026-05-30 18:02:28,331 [INFO]   Client 4 Loss: 5.9741
+2026-05-30 18:05:23,171 [INFO]   Client 5 Loss: 5.9550
+2026-05-30 18:07:14,288 [INFO] [Task 1 | Round 27/30 | Global 57] Acc: 33.18% | F1-Mac: 5.17% | Loss: 6.9577
+2026-05-30 18:07:14,306 [INFO] 
+--- Task 1, Round 28/30 (Global 58) ---
+2026-05-30 18:07:14,968 [INFO]   Client 0 Loss: 8.1412
+2026-05-30 18:07:28,643 [INFO]   Client 1 Loss: 6.8349
+2026-05-30 18:07:28,874 [INFO]   Client 2 Loss: 8.1027
+2026-05-30 18:07:38,921 [INFO]   Client 3 Loss: 6.8046
+2026-05-30 18:09:28,664 [INFO]   Client 4 Loss: 5.9730
+2026-05-30 18:12:23,060 [INFO]   Client 5 Loss: 5.9523
+2026-05-30 18:14:14,389 [INFO] [Task 1 | Round 28/30 | Global 58] Acc: 33.69% | F1-Mac: 5.56% | Loss: 6.9681
+2026-05-30 18:14:14,407 [INFO] 
+--- Task 1, Round 29/30 (Global 59) ---
+2026-05-30 18:14:15,058 [INFO]   Client 0 Loss: 8.2501
+2026-05-30 18:14:28,741 [INFO]   Client 1 Loss: 6.8357
+2026-05-30 18:14:28,973 [INFO]   Client 2 Loss: 8.0301
+2026-05-30 18:14:38,973 [INFO]   Client 3 Loss: 6.8346
+2026-05-30 18:16:28,299 [INFO]   Client 4 Loss: 5.9673
+2026-05-30 18:19:22,931 [INFO]   Client 5 Loss: 5.9540
+2026-05-30 18:21:13,056 [INFO] [Task 1 | Round 29/30 | Global 59] Acc: 33.18% | F1-Mac: 5.15% | Loss: 6.9786
+2026-05-30 18:21:13,072 [INFO] 
+--- Task 1, Round 30/30 (Global 60) ---
+2026-05-30 18:21:13,716 [INFO]   Client 0 Loss: 8.2244
+2026-05-30 18:21:27,363 [INFO]   Client 1 Loss: 6.8030
+2026-05-30 18:21:27,592 [INFO]   Client 2 Loss: 8.0341
+2026-05-30 18:21:37,662 [INFO]   Client 3 Loss: 6.8482
+2026-05-30 18:23:27,618 [INFO]   Client 4 Loss: 5.9618
+2026-05-30 18:26:23,023 [INFO]   Client 5 Loss: 5.9507
+2026-05-30 18:28:14,730 [INFO] [Task 1 | Round 30/30 | Global 60] Acc: 33.42% | F1-Mac: 5.32% | Loss: 6.9704
+2026-05-30 18:28:14,747 [INFO] Task 1 finished. Computing statistics for replay across clients...
+2026-05-30 18:29:12,849 [INFO] Task 1 fully completed.
+2026-05-30 18:29:12,993 [INFO] --- Starting Task 2 ---
+2026-05-30 18:29:18,559 [INFO] Expanding Global Classifier: 12 -> 18
+2026-05-30 18:29:21,558 [INFO] 
+--- Task 2, Round 1/30 (Global 61) ---
+2026-05-30 18:32:11,673 [INFO]   Client 0 Loss: 8.0051
+2026-05-30 18:32:13,677 [INFO]   Client 1 Loss: 10.5289
+2026-05-30 18:32:14,128 [INFO]   Client 2 Loss: 10.3767
+2026-05-30 18:33:34,803 [INFO]   Client 3 Loss: 7.6863
+2026-05-30 18:34:20,557 [INFO]   Client 4 Loss: 8.3960
+2026-05-30 18:34:21,750 [INFO]   Client 5 Loss: 9.9172
+2026-05-30 18:34:26,673 [INFO]   Client 6 Loss: 9.4508
+2026-05-30 18:37:17,586 [INFO] [Task 2 | Round 1/30 | Global 61] Acc: 21.93% | F1-Mac: 2.21% | Loss: 9.1944
+2026-05-30 18:37:17,602 [INFO] 
+--- Task 2, Round 2/30 (Global 62) ---
+2026-05-30 18:39:39,138 [INFO]   Client 0 Loss: 7.8149
+2026-05-30 18:39:40,648 [INFO]   Client 1 Loss: 9.5125
+2026-05-30 18:39:41,098 [INFO]   Client 2 Loss: 8.8207
+2026-05-30 18:41:01,501 [INFO]   Client 3 Loss: 7.5098
+2026-05-30 18:41:47,532 [INFO]   Client 4 Loss: 8.0448
+2026-05-30 18:41:48,725 [INFO]   Client 5 Loss: 8.8552
+2026-05-30 18:41:53,670 [INFO]   Client 6 Loss: 8.4913
+2026-05-30 18:44:44,533 [INFO] [Task 2 | Round 2/30 | Global 62] Acc: 32.10% | F1-Mac: 7.02% | Loss: 8.4356
+2026-05-30 18:44:44,549 [INFO] 
+--- Task 2, Round 3/30 (Global 63) ---
+2026-05-30 18:47:05,236 [INFO]   Client 0 Loss: 7.7501
+2026-05-30 18:47:06,764 [INFO]   Client 1 Loss: 9.3452
+2026-05-30 18:47:07,220 [INFO]   Client 2 Loss: 8.5952
+2026-05-30 18:48:27,660 [INFO]   Client 3 Loss: 7.4341
+2026-05-30 18:49:13,822 [INFO]   Client 4 Loss: 7.9243
+2026-05-30 18:49:14,874 [INFO]   Client 5 Loss: 8.6926
+2026-05-30 18:49:19,732 [INFO]   Client 6 Loss: 8.2730
+2026-05-30 18:52:10,782 [INFO] [Task 2 | Round 3/30 | Global 63] Acc: 14.67% | F1-Mac: 2.01% | Loss: 8.2878
+2026-05-30 18:52:10,799 [INFO] 
+--- Task 2, Round 4/30 (Global 64) ---
+2026-05-30 18:54:32,369 [INFO]   Client 0 Loss: 7.6868
+2026-05-30 18:54:33,737 [INFO]   Client 1 Loss: 9.2350
+2026-05-30 18:54:34,188 [INFO]   Client 2 Loss: 8.5967
+2026-05-30 18:55:54,927 [INFO]   Client 3 Loss: 7.3886
+2026-05-30 18:56:41,016 [INFO]   Client 4 Loss: 7.8791
+2026-05-30 18:56:42,086 [INFO]   Client 5 Loss: 8.6511
+2026-05-30 18:56:47,017 [INFO]   Client 6 Loss: 8.1910
+2026-05-30 18:59:38,547 [INFO] [Task 2 | Round 4/30 | Global 64] Acc: 14.72% | F1-Mac: 2.46% | Loss: 8.2326
+2026-05-30 18:59:38,565 [INFO] 
+--- Task 2, Round 5/30 (Global 65) ---
+2026-05-30 19:01:59,529 [INFO]   Client 0 Loss: 7.6602
+2026-05-30 19:02:01,054 [INFO]   Client 1 Loss: 9.2194
+2026-05-30 19:02:01,511 [INFO]   Client 2 Loss: 8.4981
+2026-05-30 19:03:22,525 [INFO]   Client 3 Loss: 7.3614
+2026-05-30 19:04:08,422 [INFO]   Client 4 Loss: 7.8276
+2026-05-30 19:04:09,625 [INFO]   Client 5 Loss: 8.5759
+2026-05-30 19:04:14,522 [INFO]   Client 6 Loss: 8.1287
+2026-05-30 19:07:06,424 [INFO] [Task 2 | Round 5/30 | Global 65] Acc: 14.78% | F1-Mac: 2.65% | Loss: 8.1816
+2026-05-30 19:07:06,440 [INFO] 
+--- Task 2, Round 6/30 (Global 66) ---
+2026-05-30 19:09:26,774 [INFO]   Client 0 Loss: 7.6285
+2026-05-30 19:09:28,284 [INFO]   Client 1 Loss: 9.2621
+2026-05-30 19:09:28,737 [INFO]   Client 2 Loss: 8.3918
+2026-05-30 19:10:48,650 [INFO]   Client 3 Loss: 7.3385
+2026-05-30 19:11:34,511 [INFO]   Client 4 Loss: 7.7959
+2026-05-30 19:11:35,702 [INFO]   Client 5 Loss: 8.5460
+2026-05-30 19:11:40,579 [INFO]   Client 6 Loss: 8.0891
+2026-05-30 19:14:31,963 [INFO] [Task 2 | Round 6/30 | Global 66] Acc: 14.81% | F1-Mac: 2.74% | Loss: 8.1503
+2026-05-30 19:14:31,979 [INFO] 
+--- Task 2, Round 7/30 (Global 67) ---
+2026-05-30 19:16:53,100 [INFO]   Client 0 Loss: 7.6064
+2026-05-30 19:16:54,614 [INFO]   Client 1 Loss: 9.2800
+2026-05-30 19:16:55,067 [INFO]   Client 2 Loss: 8.4551
+2026-05-30 19:18:15,028 [INFO]   Client 3 Loss: 7.3286
+2026-05-30 19:19:00,997 [INFO]   Client 4 Loss: 7.7735
+2026-05-30 19:19:02,077 [INFO]   Client 5 Loss: 8.5215
+2026-05-30 19:19:06,942 [INFO]   Client 6 Loss: 8.0880
+2026-05-30 19:21:56,073 [INFO] [Task 2 | Round 7/30 | Global 67] Acc: 14.81% | F1-Mac: 2.74% | Loss: 8.1504
+2026-05-30 19:21:56,089 [INFO] 
+--- Task 2, Round 8/30 (Global 68) ---
+2026-05-30 19:24:16,387 [INFO]   Client 0 Loss: 7.5985
+2026-05-30 19:24:17,752 [INFO]   Client 1 Loss: 9.3273
+2026-05-30 19:24:18,205 [INFO]   Client 2 Loss: 8.3598
+2026-05-30 19:25:38,608 [INFO]   Client 3 Loss: 7.3200
+2026-05-30 19:26:24,688 [INFO]   Client 4 Loss: 7.7581
+2026-05-30 19:26:25,735 [INFO]   Client 5 Loss: 8.4884
+2026-05-30 19:26:30,589 [INFO]   Client 6 Loss: 8.0797
+2026-05-30 19:29:19,324 [INFO] [Task 2 | Round 8/30 | Global 68] Acc: 14.82% | F1-Mac: 2.72% | Loss: 8.1331
+2026-05-30 19:29:19,341 [INFO] 
+--- Task 2, Round 9/30 (Global 69) ---
+2026-05-30 19:31:40,195 [INFO]   Client 0 Loss: 7.5812
+2026-05-30 19:31:41,718 [INFO]   Client 1 Loss: 9.3840
+2026-05-30 19:31:42,204 [INFO]   Client 2 Loss: 8.3406
+2026-05-30 19:33:02,397 [INFO]   Client 3 Loss: 7.3010
+2026-05-30 19:33:48,166 [INFO]   Client 4 Loss: 7.7402
+2026-05-30 19:33:49,367 [INFO]   Client 5 Loss: 8.5104
+2026-05-30 19:33:54,254 [INFO]   Client 6 Loss: 8.1043
+2026-05-30 19:36:49,477 [INFO] [Task 2 | Round 9/30 | Global 69] Acc: 14.85% | F1-Mac: 2.71% | Loss: 8.1374
+2026-05-30 19:36:49,494 [INFO] 
+--- Task 2, Round 10/30 (Global 70) ---
+2026-05-30 19:39:11,399 [INFO]   Client 0 Loss: 7.5650
+2026-05-30 19:39:12,915 [INFO]   Client 1 Loss: 9.4176
+2026-05-30 19:39:13,368 [INFO]   Client 2 Loss: 8.3913
+2026-05-30 19:40:33,776 [INFO]   Client 3 Loss: 7.3026
+2026-05-30 19:41:19,736 [INFO]   Client 4 Loss: 7.7311
+2026-05-30 19:41:20,932 [INFO]   Client 5 Loss: 8.5387
+2026-05-30 19:41:25,860 [INFO]   Client 6 Loss: 8.0760
+2026-05-30 19:44:15,108 [INFO] [Task 2 | Round 10/30 | Global 70] Acc: 14.85% | F1-Mac: 2.58% | Loss: 8.1460
+2026-05-30 19:44:15,125 [INFO] 
+--- Task 2, Round 11/30 (Global 71) ---
+2026-05-30 19:46:35,738 [INFO]   Client 0 Loss: 7.5549
+2026-05-30 19:46:37,253 [INFO]   Client 1 Loss: 9.5114
+2026-05-30 19:46:37,708 [INFO]   Client 2 Loss: 8.3312
+2026-05-30 19:47:58,528 [INFO]   Client 3 Loss: 7.2884
+2026-05-30 19:48:44,721 [INFO]   Client 4 Loss: 7.6895
+2026-05-30 19:48:45,776 [INFO]   Client 5 Loss: 8.4882
+2026-05-30 19:48:50,690 [INFO]   Client 6 Loss: 8.0669
+2026-05-30 19:51:44,660 [INFO] [Task 2 | Round 11/30 | Global 71] Acc: 14.87% | F1-Mac: 2.61% | Loss: 8.1329
+2026-05-30 19:51:44,677 [INFO] 
+--- Task 2, Round 12/30 (Global 72) ---
+2026-05-30 19:54:08,069 [INFO]   Client 0 Loss: 7.5446
+2026-05-30 19:54:09,439 [INFO]   Client 1 Loss: 9.5412
+2026-05-30 19:54:09,894 [INFO]   Client 2 Loss: 8.2770
+2026-05-30 19:55:30,718 [INFO]   Client 3 Loss: 7.2785
+2026-05-30 19:56:16,623 [INFO]   Client 4 Loss: 7.6751
+2026-05-30 19:56:17,682 [INFO]   Client 5 Loss: 8.4968
+2026-05-30 19:56:22,572 [INFO]   Client 6 Loss: 8.0648
+2026-05-30 19:59:13,916 [INFO] [Task 2 | Round 12/30 | Global 72] Acc: 14.83% | F1-Mac: 2.69% | Loss: 8.1254
+2026-05-30 19:59:13,932 [INFO] 
+--- Task 2, Round 13/30 (Global 73) ---
+2026-05-30 20:01:36,559 [INFO]   Client 0 Loss: 7.5393
+2026-05-30 20:01:38,082 [INFO]   Client 1 Loss: 9.5237
+2026-05-30 20:01:38,537 [INFO]   Client 2 Loss: 8.2992
+2026-05-30 20:02:59,828 [INFO]   Client 3 Loss: 7.2663
+2026-05-30 20:03:46,079 [INFO]   Client 4 Loss: 7.6780
+2026-05-30 20:03:47,288 [INFO]   Client 5 Loss: 8.5259
+2026-05-30 20:03:52,207 [INFO]   Client 6 Loss: 8.0931
+2026-05-30 20:06:43,157 [INFO] [Task 2 | Round 13/30 | Global 73] Acc: 14.86% | F1-Mac: 2.49% | Loss: 8.1322
+2026-05-30 20:06:43,174 [INFO] 
+--- Task 2, Round 14/30 (Global 74) ---
+2026-05-30 20:09:04,347 [INFO]   Client 0 Loss: 7.5315
+2026-05-30 20:09:05,861 [INFO]   Client 1 Loss: 9.5558
+2026-05-30 20:09:06,319 [INFO]   Client 2 Loss: 8.2598
+2026-05-30 20:10:26,525 [INFO]   Client 3 Loss: 7.2586
+2026-05-30 20:11:12,317 [INFO]   Client 4 Loss: 7.6513
+2026-05-30 20:11:13,520 [INFO]   Client 5 Loss: 8.4942
+2026-05-30 20:11:18,427 [INFO]   Client 6 Loss: 8.0919
+2026-05-30 20:14:08,987 [INFO] [Task 2 | Round 14/30 | Global 74] Acc: 14.84% | F1-Mac: 2.60% | Loss: 8.1204
+2026-05-30 20:14:09,003 [INFO] 
+--- Task 2, Round 15/30 (Global 75) ---
+2026-05-30 20:16:30,756 [INFO]   Client 0 Loss: 7.5249
+2026-05-30 20:16:32,327 [INFO]   Client 1 Loss: 9.6357
+2026-05-30 20:16:32,797 [INFO]   Client 2 Loss: 8.2891
+2026-05-30 20:17:54,177 [INFO]   Client 3 Loss: 7.2505
+2026-05-30 20:18:40,174 [INFO]   Client 4 Loss: 7.6519
+2026-05-30 20:18:41,220 [INFO]   Client 5 Loss: 8.5115
+2026-05-30 20:18:46,116 [INFO]   Client 6 Loss: 8.0709
+2026-05-30 20:21:37,383 [INFO] [Task 2 | Round 15/30 | Global 75] Acc: 14.85% | F1-Mac: 2.77% | Loss: 8.1335
+2026-05-30 20:21:37,399 [INFO] 
+--- Task 2, Round 16/30 (Global 76) ---
+2026-05-30 20:23:58,870 [INFO]   Client 0 Loss: 7.5079
+2026-05-30 20:24:00,235 [INFO]   Client 1 Loss: 9.6161
+2026-05-30 20:24:00,695 [INFO]   Client 2 Loss: 8.2888
+2026-05-30 20:25:21,302 [INFO]   Client 3 Loss: 7.2361
+2026-05-30 20:26:07,343 [INFO]   Client 4 Loss: 7.6400
+2026-05-30 20:26:08,395 [INFO]   Client 5 Loss: 8.5696
+2026-05-30 20:26:13,306 [INFO]   Client 6 Loss: 8.0666
+2026-05-30 20:29:07,148 [INFO] [Task 2 | Round 16/30 | Global 76] Acc: 14.86% | F1-Mac: 2.77% | Loss: 8.1322
+2026-05-30 20:29:07,165 [INFO] 
+--- Task 2, Round 17/30 (Global 77) ---
+2026-05-30 20:31:29,159 [INFO]   Client 0 Loss: 7.5028
+2026-05-30 20:31:30,694 [INFO]   Client 1 Loss: 9.6595
+2026-05-30 20:31:31,149 [INFO]   Client 2 Loss: 8.2489
+2026-05-30 20:32:52,551 [INFO]   Client 3 Loss: 7.2294
+2026-05-30 20:33:38,886 [INFO]   Client 4 Loss: 7.6322
+2026-05-30 20:33:40,086 [INFO]   Client 5 Loss: 8.5371
+2026-05-30 20:33:45,043 [INFO]   Client 6 Loss: 8.0987
+2026-05-30 20:36:38,254 [INFO] [Task 2 | Round 17/30 | Global 77] Acc: 14.85% | F1-Mac: 2.88% | Loss: 8.1298
+2026-05-30 20:36:38,272 [INFO] 
+--- Task 2, Round 18/30 (Global 78) ---
+2026-05-30 20:39:00,136 [INFO]   Client 0 Loss: 7.4973
+2026-05-30 20:39:01,667 [INFO]   Client 1 Loss: 9.6706
+2026-05-30 20:39:02,130 [INFO]   Client 2 Loss: 8.2126
+2026-05-30 20:40:23,725 [INFO]   Client 3 Loss: 7.2182
+2026-05-30 20:41:10,218 [INFO]   Client 4 Loss: 7.6318
+2026-05-30 20:41:11,427 [INFO]   Client 5 Loss: 8.5456
+2026-05-30 20:41:16,403 [INFO]   Client 6 Loss: 8.0589
+2026-05-30 20:44:13,108 [INFO] [Task 2 | Round 18/30 | Global 78] Acc: 14.89% | F1-Mac: 2.55% | Loss: 8.1193
+2026-05-30 20:44:13,125 [INFO] 
+--- Task 2, Round 19/30 (Global 79) ---
+2026-05-30 20:46:35,843 [INFO]   Client 0 Loss: 7.4896
+2026-05-30 20:46:37,390 [INFO]   Client 1 Loss: 9.6750
+2026-05-30 20:46:37,846 [INFO]   Client 2 Loss: 8.2272
+2026-05-30 20:47:58,762 [INFO]   Client 3 Loss: 7.2036
+2026-05-30 20:48:45,108 [INFO]   Client 4 Loss: 7.6236
+2026-05-30 20:48:46,188 [INFO]   Client 5 Loss: 8.5323
+2026-05-30 20:48:51,133 [INFO]   Client 6 Loss: 8.0844
+2026-05-30 20:51:45,887 [INFO] [Task 2 | Round 19/30 | Global 79] Acc: 14.86% | F1-Mac: 2.65% | Loss: 8.1194
+2026-05-30 20:51:45,906 [INFO] 
+--- Task 2, Round 20/30 (Global 80) ---
+2026-05-30 20:54:08,523 [INFO]   Client 0 Loss: 7.4927
+2026-05-30 20:54:09,904 [INFO]   Client 1 Loss: 9.6855
+2026-05-30 20:54:10,353 [INFO]   Client 2 Loss: 8.2365
+2026-05-30 20:55:31,969 [INFO]   Client 3 Loss: 7.2089
+2026-05-30 20:56:18,635 [INFO]   Client 4 Loss: 7.5999
+2026-05-30 20:56:19,699 [INFO]   Client 5 Loss: 8.5230
+2026-05-30 20:56:24,641 [INFO]   Client 6 Loss: 8.0820
+2026-05-30 20:59:20,921 [INFO] [Task 2 | Round 20/30 | Global 80] Acc: 14.89% | F1-Mac: 2.93% | Loss: 8.1184
+2026-05-30 20:59:20,938 [INFO] 
+--- Task 2, Round 21/30 (Global 81) ---
+2026-05-30 21:01:42,695 [INFO]   Client 0 Loss: 7.4837
+2026-05-30 21:01:44,231 [INFO]   Client 1 Loss: 9.6416
+2026-05-30 21:01:44,694 [INFO]   Client 2 Loss: 8.2631
+2026-05-30 21:03:05,806 [INFO]   Client 3 Loss: 7.1894
+2026-05-30 21:03:51,893 [INFO]   Client 4 Loss: 7.5927
+2026-05-30 21:03:53,121 [INFO]   Client 5 Loss: 8.5203
+2026-05-30 21:03:58,043 [INFO]   Client 6 Loss: 8.0701
+2026-05-30 21:06:52,718 [INFO] [Task 2 | Round 21/30 | Global 81] Acc: 14.85% | F1-Mac: 3.26% | Loss: 8.1087
+2026-05-30 21:06:52,735 [INFO] 
+--- Task 2, Round 22/30 (Global 82) ---
+2026-05-30 21:09:14,321 [INFO]   Client 0 Loss: 7.4647
+2026-05-30 21:09:15,854 [INFO]   Client 1 Loss: 9.7392
+2026-05-30 21:09:16,313 [INFO]   Client 2 Loss: 8.2433
+2026-05-30 21:10:37,329 [INFO]   Client 3 Loss: 7.1840
+2026-05-30 21:11:23,746 [INFO]   Client 4 Loss: 7.6219
+2026-05-30 21:11:24,936 [INFO]   Client 5 Loss: 8.5927
+2026-05-30 21:11:29,831 [INFO]   Client 6 Loss: 8.0701
+2026-05-30 21:14:22,799 [INFO] [Task 2 | Round 22/30 | Global 82] Acc: 14.85% | F1-Mac: 2.80% | Loss: 8.1308
+2026-05-30 21:14:22,815 [INFO] 
+--- Task 2, Round 23/30 (Global 83) ---
+2026-05-30 21:16:44,376 [INFO]   Client 0 Loss: 7.4589
+2026-05-30 21:16:45,899 [INFO]   Client 1 Loss: 9.7590
+2026-05-30 21:16:46,355 [INFO]   Client 2 Loss: 8.2450
+2026-05-30 21:18:07,023 [INFO]   Client 3 Loss: 7.1583
+2026-05-30 21:18:53,521 [INFO]   Client 4 Loss: 7.5852
+2026-05-30 21:18:54,584 [INFO]   Client 5 Loss: 8.5530
+2026-05-30 21:18:59,496 [INFO]   Client 6 Loss: 8.1071
+2026-05-30 21:21:52,506 [INFO] [Task 2 | Round 23/30 | Global 83] Acc: 14.85% | F1-Mac: 2.89% | Loss: 8.1238
+2026-05-30 21:21:52,522 [INFO] 
+--- Task 2, Round 24/30 (Global 84) ---
+2026-05-30 21:24:14,342 [INFO]   Client 0 Loss: 7.4533
+2026-05-30 21:24:15,732 [INFO]   Client 1 Loss: 9.7226
+2026-05-30 21:24:16,188 [INFO]   Client 2 Loss: 8.1910
+2026-05-30 21:25:37,228 [INFO]   Client 3 Loss: 7.1637
+2026-05-30 21:26:23,679 [INFO]   Client 4 Loss: 7.5790
+2026-05-30 21:26:24,743 [INFO]   Client 5 Loss: 8.5269
+2026-05-30 21:26:29,652 [INFO]   Client 6 Loss: 8.0788
+2026-05-30 21:29:23,661 [INFO] [Task 2 | Round 24/30 | Global 84] Acc: 14.87% | F1-Mac: 3.13% | Loss: 8.1022
+2026-05-30 21:29:23,677 [INFO] 
+--- Task 2, Round 25/30 (Global 85) ---
+2026-05-30 21:31:45,358 [INFO]   Client 0 Loss: 7.4246
+2026-05-30 21:31:46,889 [INFO]   Client 1 Loss: 9.7228
+2026-05-30 21:31:47,347 [INFO]   Client 2 Loss: 8.2118
+2026-05-30 21:33:08,625 [INFO]   Client 3 Loss: 7.1511
+2026-05-30 21:33:55,201 [INFO]   Client 4 Loss: 7.5617
+2026-05-30 21:33:56,415 [INFO]   Client 5 Loss: 8.6490
+2026-05-30 21:34:01,345 [INFO]   Client 6 Loss: 8.0365
+2026-05-30 21:36:55,188 [INFO] [Task 2 | Round 25/30 | Global 85] Acc: 14.87% | F1-Mac: 2.76% | Loss: 8.1082
+2026-05-30 21:36:55,204 [INFO] 
+--- Task 2, Round 26/30 (Global 86) ---
+2026-05-30 21:39:16,643 [INFO]   Client 0 Loss: 7.4661
+2026-05-30 21:39:18,169 [INFO]   Client 1 Loss: 9.7313
+2026-05-30 21:39:18,627 [INFO]   Client 2 Loss: 8.3391
+2026-05-30 21:40:39,691 [INFO]   Client 3 Loss: 7.1463
+2026-05-30 21:41:25,871 [INFO]   Client 4 Loss: 7.5704
+2026-05-30 21:41:27,070 [INFO]   Client 5 Loss: 8.5741
+2026-05-30 21:41:31,977 [INFO]   Client 6 Loss: 8.1563
+2026-05-30 21:44:25,222 [INFO] [Task 2 | Round 26/30 | Global 86] Acc: 14.85% | F1-Mac: 3.05% | Loss: 8.1405
+2026-05-30 21:44:25,238 [INFO] 
+--- Task 2, Round 27/30 (Global 87) ---
+2026-05-30 21:46:47,461 [INFO]   Client 0 Loss: 7.4302
+2026-05-30 21:46:48,991 [INFO]   Client 1 Loss: 9.7069
+2026-05-30 21:46:49,448 [INFO]   Client 2 Loss: 8.2883
+2026-05-30 21:48:10,221 [INFO]   Client 3 Loss: 7.1343
+2026-05-30 21:48:56,588 [INFO]   Client 4 Loss: 7.5387
+2026-05-30 21:48:57,650 [INFO]   Client 5 Loss: 8.5235
+2026-05-30 21:49:02,558 [INFO]   Client 6 Loss: 8.0914
+2026-05-30 21:51:58,442 [INFO] [Task 2 | Round 27/30 | Global 87] Acc: 14.87% | F1-Mac: 3.19% | Loss: 8.1019
+2026-05-30 21:51:58,459 [INFO] 
+--- Task 2, Round 28/30 (Global 88) ---
+2026-05-30 21:54:20,560 [INFO]   Client 0 Loss: 7.4276
+2026-05-30 21:54:21,949 [INFO]   Client 1 Loss: 9.7579
+2026-05-30 21:54:22,412 [INFO]   Client 2 Loss: 8.2280
+2026-05-30 21:55:43,391 [INFO]   Client 3 Loss: 7.1303
+2026-05-30 21:56:30,008 [INFO]   Client 4 Loss: 7.5307
+2026-05-30 21:56:31,057 [INFO]   Client 5 Loss: 8.5054
+2026-05-30 21:56:35,952 [INFO]   Client 6 Loss: 8.0973
+2026-05-30 21:59:30,840 [INFO] [Task 2 | Round 28/30 | Global 88] Acc: 14.88% | F1-Mac: 3.26% | Loss: 8.0967
+2026-05-30 21:59:30,856 [INFO] 
+--- Task 2, Round 29/30 (Global 89) ---
+2026-05-30 22:01:52,575 [INFO]   Client 0 Loss: 7.3964
+2026-05-30 22:01:54,129 [INFO]   Client 1 Loss: 9.7983
+2026-05-30 22:01:54,591 [INFO]   Client 2 Loss: 8.2407
+2026-05-30 22:03:15,871 [INFO]   Client 3 Loss: 7.1260
+2026-05-30 22:04:02,225 [INFO]   Client 4 Loss: 7.5406
+2026-05-30 22:04:03,431 [INFO]   Client 5 Loss: 8.5909
+2026-05-30 22:04:08,345 [INFO]   Client 6 Loss: 8.0361
+2026-05-30 22:07:03,387 [INFO] [Task 2 | Round 29/30 | Global 89] Acc: 14.88% | F1-Mac: 3.04% | Loss: 8.1041
+2026-05-30 22:07:03,403 [INFO] 
+--- Task 2, Round 30/30 (Global 90) ---
+2026-05-30 22:09:25,104 [INFO]   Client 0 Loss: 7.4054
+2026-05-30 22:09:26,649 [INFO]   Client 1 Loss: 9.7804
+2026-05-30 22:09:27,107 [INFO]   Client 2 Loss: 8.2482
+2026-05-30 22:10:48,371 [INFO]   Client 3 Loss: 7.1142
+2026-05-30 22:11:34,901 [INFO]   Client 4 Loss: 7.4931
+2026-05-30 22:11:36,109 [INFO]   Client 5 Loss: 8.5886
+2026-05-30 22:11:41,039 [INFO]   Client 6 Loss: 8.1247
+2026-05-30 22:14:36,524 [INFO] [Task 2 | Round 30/30 | Global 90] Acc: 14.87% | F1-Mac: 2.92% | Loss: 8.1078
+2026-05-30 22:14:36,541 [INFO] Task 2 finished. Computing statistics for replay across clients...
+2026-05-30 22:15:38,476 [INFO] Task 2 fully completed.
+2026-05-30 22:15:38,641 [INFO] --- Starting Task 3 ---
+2026-05-30 22:15:45,363 [INFO] Expanding Global Classifier: 18 -> 24
+2026-05-30 22:15:49,577 [INFO] 
+--- Task 3, Round 1/30 (Global 91) ---
+2026-05-30 22:16:20,042 [INFO]   Client 0 Loss: 8.8335
+2026-05-30 22:16:52,164 [INFO]   Client 1 Loss: 8.7230
+2026-05-30 22:17:13,556 [INFO]   Client 2 Loss: 9.1219
+2026-05-30 22:17:47,377 [INFO]   Client 3 Loss: 9.0237
+2026-05-30 22:18:35,117 [INFO]   Client 4 Loss: 9.2701
+2026-05-30 22:18:42,747 [INFO]   Client 5 Loss: 10.2034
+2026-05-30 22:18:46,574 [INFO]   Client 6 Loss: 10.0545
+2026-05-30 22:20:06,078 [INFO]   Client 7 Loss: 8.4663
+2026-05-30 22:23:55,331 [INFO] [Task 3 | Round 1/30 | Global 91] Acc: 11.54% | F1-Mac: 1.37% | Loss: 9.2120
+2026-05-30 22:23:55,348 [INFO] 
+--- Task 3, Round 2/30 (Global 92) ---
+2026-05-30 22:24:20,352 [INFO]   Client 0 Loss: 8.4254
+2026-05-30 22:24:52,555 [INFO]   Client 1 Loss: 8.3860
+2026-05-30 22:25:13,958 [INFO]   Client 2 Loss: 8.5540
+2026-05-30 22:25:47,324 [INFO]   Client 3 Loss: 8.6796
+2026-05-30 22:26:34,579 [INFO]   Client 4 Loss: 8.8692
+2026-05-30 22:26:42,232 [INFO]   Client 5 Loss: 9.8445
+2026-05-30 22:26:46,056 [INFO]   Client 6 Loss: 9.5938
+2026-05-30 22:28:05,273 [INFO]   Client 7 Loss: 8.2744
+2026-05-30 22:31:55,093 [INFO] [Task 3 | Round 2/30 | Global 92] Acc: 20.54% | F1-Mac: 9.27% | Loss: 8.8284
+2026-05-30 22:31:55,110 [INFO] 
+--- Task 3, Round 3/30 (Global 93) ---
+2026-05-30 22:32:19,848 [INFO]   Client 0 Loss: 8.2752
+2026-05-30 22:32:51,856 [INFO]   Client 1 Loss: 8.2605
+2026-05-30 22:33:13,242 [INFO]   Client 2 Loss: 8.3337
+2026-05-30 22:33:46,610 [INFO]   Client 3 Loss: 8.4172
+2026-05-30 22:34:34,089 [INFO]   Client 4 Loss: 8.4911
+2026-05-30 22:34:41,557 [INFO]   Client 5 Loss: 9.7315
+2026-05-30 22:34:45,380 [INFO]   Client 6 Loss: 9.3862
+2026-05-30 22:36:04,183 [INFO]   Client 7 Loss: 8.1820
+2026-05-30 22:39:52,597 [INFO] [Task 3 | Round 3/30 | Global 93] Acc: 20.72% | F1-Mac: 10.23% | Loss: 8.6347
+2026-05-30 22:39:52,613 [INFO] 
+--- Task 3, Round 4/30 (Global 94) ---
+2026-05-30 22:40:17,289 [INFO]   Client 0 Loss: 8.1917
+2026-05-30 22:40:49,200 [INFO]   Client 1 Loss: 8.1760
+2026-05-30 22:41:10,580 [INFO]   Client 2 Loss: 8.2143
+2026-05-30 22:41:44,259 [INFO]   Client 3 Loss: 8.2959
+2026-05-30 22:42:31,640 [INFO]   Client 4 Loss: 8.3818
+2026-05-30 22:42:39,109 [INFO]   Client 5 Loss: 9.5405
+2026-05-30 22:42:42,939 [INFO]   Client 6 Loss: 9.1735
+2026-05-30 22:44:02,129 [INFO]   Client 7 Loss: 8.1300
+2026-05-30 22:47:50,172 [INFO] [Task 3 | Round 4/30 | Global 94] Acc: 21.05% | F1-Mac: 10.82% | Loss: 8.5130
+2026-05-30 22:47:50,187 [INFO] 
+--- Task 3, Round 5/30 (Global 95) ---
+2026-05-30 22:48:14,924 [INFO]   Client 0 Loss: 8.1471
+2026-05-30 22:48:46,915 [INFO]   Client 1 Loss: 8.1181
+2026-05-30 22:49:07,977 [INFO]   Client 2 Loss: 8.1730
+2026-05-30 22:49:41,369 [INFO]   Client 3 Loss: 8.2321
+2026-05-30 22:50:28,684 [INFO]   Client 4 Loss: 8.3068
+2026-05-30 22:50:36,212 [INFO]   Client 5 Loss: 9.4470
+2026-05-30 22:50:40,033 [INFO]   Client 6 Loss: 9.1045
+2026-05-30 22:51:59,031 [INFO]   Client 7 Loss: 8.0966
+2026-05-30 22:55:48,068 [INFO] [Task 3 | Round 5/30 | Global 95] Acc: 21.14% | F1-Mac: 11.07% | Loss: 8.4532
+2026-05-30 22:55:48,085 [INFO] 
+--- Task 3, Round 6/30 (Global 96) ---
+2026-05-30 22:56:13,033 [INFO]   Client 0 Loss: 8.1054
+2026-05-30 22:56:45,067 [INFO]   Client 1 Loss: 8.1008
+2026-05-30 22:57:06,602 [INFO]   Client 2 Loss: 8.1499
+2026-05-30 22:57:40,179 [INFO]   Client 3 Loss: 8.1955
+2026-05-30 22:58:27,884 [INFO]   Client 4 Loss: 8.2659
+2026-05-30 22:58:35,397 [INFO]   Client 5 Loss: 9.4258
+2026-05-30 22:58:39,223 [INFO]   Client 6 Loss: 9.0445
+2026-05-30 22:59:58,241 [INFO]   Client 7 Loss: 8.0750
+2026-05-30 23:03:47,327 [INFO] [Task 3 | Round 6/30 | Global 96] Acc: 21.17% | F1-Mac: 11.27% | Loss: 8.4203
+2026-05-30 23:03:47,344 [INFO] 
+--- Task 3, Round 7/30 (Global 97) ---
+2026-05-30 23:04:12,243 [INFO]   Client 0 Loss: 8.0862
+2026-05-30 23:04:44,368 [INFO]   Client 1 Loss: 8.0696
+2026-05-30 23:05:05,649 [INFO]   Client 2 Loss: 8.1166
+2026-05-30 23:05:38,892 [INFO]   Client 3 Loss: 8.1732
+2026-05-30 23:06:26,622 [INFO]   Client 4 Loss: 8.2315
+2026-05-30 23:06:34,121 [INFO]   Client 5 Loss: 9.3968
+2026-05-30 23:06:37,951 [INFO]   Client 6 Loss: 9.0175
+2026-05-30 23:07:56,677 [INFO]   Client 7 Loss: 8.0500
+2026-05-30 23:11:45,670 [INFO] [Task 3 | Round 7/30 | Global 97] Acc: 21.22% | F1-Mac: 11.62% | Loss: 8.3927
+2026-05-30 23:11:45,687 [INFO] 
+--- Task 3, Round 8/30 (Global 98) ---
+2026-05-30 23:12:10,429 [INFO]   Client 0 Loss: 8.0661
+2026-05-30 23:12:42,347 [INFO]   Client 1 Loss: 8.0415
+2026-05-30 23:13:03,703 [INFO]   Client 2 Loss: 8.0985
+2026-05-30 23:13:37,177 [INFO]   Client 3 Loss: 8.1476
+2026-05-30 23:14:24,537 [INFO]   Client 4 Loss: 8.2049
+2026-05-30 23:14:32,020 [INFO]   Client 5 Loss: 9.3956
+2026-05-30 23:14:35,820 [INFO]   Client 6 Loss: 8.9931
+2026-05-30 23:15:54,697 [INFO]   Client 7 Loss: 8.0343
+2026-05-30 23:19:42,413 [INFO] [Task 3 | Round 8/30 | Global 98] Acc: 21.21% | F1-Mac: 11.54% | Loss: 8.3727
+2026-05-30 23:19:42,431 [INFO] 
+--- Task 3, Round 9/30 (Global 99) ---
+2026-05-30 23:20:07,229 [INFO]   Client 0 Loss: 8.0459
+2026-05-30 23:20:39,180 [INFO]   Client 1 Loss: 8.0348
+2026-05-30 23:21:00,228 [INFO]   Client 2 Loss: 8.0740
+2026-05-30 23:21:33,798 [INFO]   Client 3 Loss: 8.1352
+2026-05-30 23:22:20,941 [INFO]   Client 4 Loss: 8.1771
+2026-05-30 23:22:28,401 [INFO]   Client 5 Loss: 9.3846
+2026-05-30 23:22:32,208 [INFO]   Client 6 Loss: 8.9475
+2026-05-30 23:23:51,029 [INFO]   Client 7 Loss: 8.0217
+2026-05-30 23:27:37,851 [INFO] [Task 3 | Round 9/30 | Global 99] Acc: 21.25% | F1-Mac: 12.02% | Loss: 8.3526
+2026-05-30 23:27:37,868 [INFO] 
+--- Task 3, Round 10/30 (Global 100) ---
+2026-05-30 23:28:02,798 [INFO]   Client 0 Loss: 8.0332
+2026-05-30 23:28:34,881 [INFO]   Client 1 Loss: 8.0309
+2026-05-30 23:28:56,134 [INFO]   Client 2 Loss: 8.0692
+2026-05-30 23:29:29,606 [INFO]   Client 3 Loss: 8.1031
+2026-05-30 23:30:16,984 [INFO]   Client 4 Loss: 8.1565
+2026-05-30 23:30:24,464 [INFO]   Client 5 Loss: 9.3608
+2026-05-30 23:30:28,291 [INFO]   Client 6 Loss: 8.9125
+2026-05-30 23:31:48,021 [INFO]   Client 7 Loss: 8.0055
+2026-05-30 23:35:35,936 [INFO] [Task 3 | Round 10/30 | Global 100] Acc: 21.27% | F1-Mac: 12.17% | Loss: 8.3339
+2026-05-30 23:35:35,953 [INFO] 
+--- Task 3, Round 11/30 (Global 101) ---
+2026-05-30 23:36:00,706 [INFO]   Client 0 Loss: 8.0273
+2026-05-30 23:36:32,538 [INFO]   Client 1 Loss: 8.0176
+2026-05-30 23:36:53,698 [INFO]   Client 2 Loss: 8.0468
+2026-05-30 23:37:27,270 [INFO]   Client 3 Loss: 8.0980
+2026-05-30 23:38:14,573 [INFO]   Client 4 Loss: 8.1395
+2026-05-30 23:38:22,081 [INFO]   Client 5 Loss: 9.3404
+2026-05-30 23:38:25,899 [INFO]   Client 6 Loss: 8.8877
+2026-05-30 23:39:44,865 [INFO]   Client 7 Loss: 7.9982
+2026-05-30 23:43:33,531 [INFO] [Task 3 | Round 11/30 | Global 101] Acc: 21.21% | F1-Mac: 12.01% | Loss: 8.3194
+2026-05-30 23:43:33,547 [INFO] 
+--- Task 3, Round 12/30 (Global 102) ---
+2026-05-30 23:43:58,569 [INFO]   Client 0 Loss: 8.0171
+2026-05-30 23:44:30,449 [INFO]   Client 1 Loss: 8.0036
+2026-05-30 23:44:51,734 [INFO]   Client 2 Loss: 8.0403
+2026-05-30 23:45:25,418 [INFO]   Client 3 Loss: 8.0918
+2026-05-30 23:46:12,998 [INFO]   Client 4 Loss: 8.1233
+2026-05-30 23:46:20,566 [INFO]   Client 5 Loss: 9.3382
+2026-05-30 23:46:24,401 [INFO]   Client 6 Loss: 8.8775
+2026-05-30 23:47:43,483 [INFO]   Client 7 Loss: 7.9849
+2026-05-30 23:51:32,037 [INFO] [Task 3 | Round 12/30 | Global 102] Acc: 21.27% | F1-Mac: 12.35% | Loss: 8.3096
+2026-05-30 23:51:32,053 [INFO] 
+--- Task 3, Round 13/30 (Global 103) ---
+2026-05-30 23:51:56,897 [INFO]   Client 0 Loss: 8.0035
+2026-05-30 23:52:28,818 [INFO]   Client 1 Loss: 8.0043
+2026-05-30 23:52:50,097 [INFO]   Client 2 Loss: 8.0241
+2026-05-30 23:53:23,493 [INFO]   Client 3 Loss: 8.0756
+2026-05-30 23:54:10,667 [INFO]   Client 4 Loss: 8.1106
+2026-05-30 23:54:18,178 [INFO]   Client 5 Loss: 9.3178
+2026-05-30 23:54:22,015 [INFO]   Client 6 Loss: 8.8923
+2026-05-30 23:55:41,063 [INFO]   Client 7 Loss: 7.9840
