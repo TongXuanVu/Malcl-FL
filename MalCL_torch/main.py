@@ -253,7 +253,13 @@ if hasattr(args, 'resume') and args.resume and os.path.isfile(args.resume):
         past_Generator.eval()
     config.n_class = checkpoint['n_class']
     
+    if start_task > 0:
+        config.past_n_class = past_Classifier.output_dim if past_Classifier else (config.init_classes + config.n_inc * (start_task - 1))
+        
     if start_round >= config.num_rounds:
+        config.past_n_class = config.n_class
+        config.n_class += config.n_inc
+        if config.n_class > config.final_classes: config.n_class = config.final_classes
         start_task += 1
         start_round = 0
 
