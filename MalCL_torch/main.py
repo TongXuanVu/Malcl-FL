@@ -122,6 +122,32 @@ if hasattr(args, 'mode') and args.mode == 'test':
                     logger.warning("Seaborn not installed, skipping confusion matrix plot.")
                 
         _df_test = pd.DataFrame(_test_results)
+        
+        # Rename columns to user requested format
+        _df_test = _df_test.rename(columns={
+            'task': 'task_id',
+            'round': 'round_in_task',
+            'accuracy': 'acc',
+            'precision_micro': 'prec_mic',
+            'precision_macro': 'prec_mac',
+            'precision_weighted': 'prec_wei',
+            'recall_micro': 'rec_mic',
+            'recall_macro': 'rec_mac',
+            'recall_weighted': 'rec_wei',
+            'f1_micro': 'f1_mic',
+            'f1_macro': 'f1_mac',
+            'f1_weighted': 'f1_wei'
+        })
+        
+        # Select and reorder desired columns
+        desired_cols = [
+            'task_id', 'round_in_task', 'global_round', 'acc', 
+            'prec_mic', 'prec_mac', 'prec_wei', 
+            'rec_mic', 'rec_mac', 'rec_wei', 
+            'f1_mic', 'f1_mac', 'f1_wei', 'loss'
+        ]
+        _df_test = _df_test[[c for c in desired_cols if c in _df_test.columns]]
+        
         _test_csv = os.path.join(results_dir, 'test_results.csv')
         _df_test.to_csv(_test_csv, index=False)
         logger.info(f'[TEST] Ket qua luu tai: {_test_csv}')
