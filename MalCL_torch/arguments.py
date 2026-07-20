@@ -58,6 +58,8 @@ def _parse_args():
         , help='choose among the 2 Loss functions for Generator training. (FML, BCE)'
     )
 
+    parser.add_argument('--num_clients', default=100, type=int,
+                        help='Tong so client (100 cho bo data "100 client", 10 cho bo cu).')
     parser.add_argument('--train_data', default = '', help='Path of train data')
     parser.add_argument('--test_data', default = '', help='Path of test data')
     parser.add_argument('--use_cuda', default=True, type=bool)

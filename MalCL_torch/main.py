@@ -30,7 +30,7 @@ args = _parse_args()
 configurate(args, config)
 torch_setting(config)
 
-num_clients = 10 # Hardcoded as per FL standard in this workspace
+num_clients = int(getattr(config, 'num_clients', 0) or 100)  # 100 cho bo data "100 client"
 
 # ── Results & Logging Setup ──
 now = datetime.datetime.now().strftime('%d-%m-%y_%H-%M')
@@ -56,12 +56,14 @@ os.makedirs(ckpt_dir, exist_ok=True)
 if hasattr(args, 'mode') and args.mode == 'test':
     import glob
     test_ckpt_root = (args.test_checkpoint_dir if args.test_checkpoint_dir else ckpt_dir)
-    ckpt_files = sorted(glob.glob(os.path.join(test_ckpt_root, 'ckpt_round*.pth')))
+    # Ho tro ca ten cu (ckpt_round*.pth) va ten moi 1-ckpt-moi-task (ckpt_task*_latest.pth)
+    ckpt_files = sorted(glob.glob(os.path.join(test_ckpt_root, 'ckpt_round*.pth'))) \
+               + sorted(glob.glob(os.path.join(test_ckpt_root, 'ckpt_task*_latest.pth')))
     if not ckpt_files:
         logger.error(f'[TEST] Khong tim thay checkpoint trong: {test_ckpt_root}')
     else:
         logger.info(f'[TEST] Tim thay {len(ckpt_files)} checkpoint(s). Bat dau evaluation...')
-        global_label_map = get_global_label_map()
+        global_label_map = get_global_label_map(getattr(config, 'train_data', None))
         X_test, Y_test = get_global_test_data(config, global_label_map)
         
         global_scaler = StandardScaler()
@@ -207,7 +209,7 @@ if hasattr(args, 'mode') and args.mode == 'test':
     sys.exit(0)
 
 # ── Load Global Test Data ──
-global_label_map = get_global_label_map()
+global_label_map = get_global_label_map(getattr(config, 'train_data', None))
 X_test, Y_test = get_global_test_data(config, global_label_map)
 config.feats_length = X_test.shape[1]
 
@@ -414,7 +416,9 @@ for task in range(start_task, config.nb_task):
                 f"Acc: {metrics['accuracy']:.2f}% | F1-Mac: {metrics['f1_macro']:.2f}% | Loss: {avg_round_loss:.4f}"
             )
             
-            _ckpt_name = f'ckpt_round{global_round:04d}_task{task:02d}_r{r+1:03d}_acc{metrics["accuracy"]:.1f}.pth'
+            # Chi giu 1 checkpoint MOI NHAT moi task (ghi de theo round) -> khong day dia Kaggle.
+            # Ckpt cuoi cung cua task chinh la ckpt con lai sau round cuoi.
+            _ckpt_name = f'ckpt_task{task:02d}_latest.pth'
             _ckpt_data = {
                 'task': task, 'round': r + 1, 'global_round': global_round, 'n_class': config.n_class,
                 'classifier_state_dict': C_global.state_dict(),
