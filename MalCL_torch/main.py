@@ -247,6 +247,9 @@ past_Generator = None
 past_Classifier = None
 results_all = []
 history_rounds = []
+# CSV ghi truc tiep moi round (an toan khi run bi ngat giua chung).
+# Mo che do append de resume noi tiep vao dung file neu chay lai cung thu muc.
+round_csv_live_path = os.path.join(results_dir, 'metrics_round_by_round_live.csv')
 loss_history = []
 
 if hasattr(args, 'resume') and args.resume and os.path.isfile(args.resume):
@@ -411,6 +414,17 @@ for task in range(start_task, config.nb_task):
             })
             history_rounds.append(metrics)
             loss_history.append(avg_round_loss)
+
+            # Ghi CSV NGAY moi round (khong doi den cuoi 6 task).
+            # Truoc day CSV chi duoc ghi sau khi chay het 180 round -> run bi ngat
+            # giua chung la mat toan bo metrics.
+            _row = {k: v for k, v in metrics.items() if k != 'confusion_matrix'}
+            _new_file = not os.path.exists(round_csv_live_path)
+            with open(round_csv_live_path, 'a', newline='', encoding='utf-8') as _f:
+                _w = csv.DictWriter(_f, fieldnames=list(_row.keys()))
+                if _new_file:
+                    _w.writeheader()
+                _w.writerow(_row)
             logger.info(
                 f"[Task {task} | Round {r+1}/{num_rounds} | Global {global_round}] "
                 f"Acc: {metrics['accuracy']:.2f}% | F1-Mac: {metrics['f1_macro']:.2f}% | Loss: {avg_round_loss:.4f}"
