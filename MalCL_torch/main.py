@@ -415,16 +415,37 @@ for task in range(start_task, config.nb_task):
             history_rounds.append(metrics)
             loss_history.append(avg_round_loss)
 
-            # Ghi CSV NGAY moi round (khong doi den cuoi 6 task).
+            # ── Ghi CSV NGAY sau moi round ────────────────────────────────────
             # Truoc day CSV chi duoc ghi sau khi chay het 180 round -> run bi ngat
-            # giua chung la mat toan bo metrics.
-            _row = {k: v for k, v in metrics.items() if k != 'confusion_matrix'}
+            # giua chung la mat toan bo metrics. Nay ghi + flush tung round nen
+            # dung giua chung van co CSV day du cho cac round da chay.
+            # Thu tu cot theo schema HFIN de doi chieu truc tiep.
             _new_file = not os.path.exists(round_csv_live_path)
             with open(round_csv_live_path, 'a', newline='', encoding='utf-8') as _f:
-                _w = csv.DictWriter(_f, fieldnames=list(_row.keys()))
+                _w = csv.writer(_f)
                 if _new_file:
-                    _w.writeheader()
-                _w.writerow(_row)
+                    _w.writerow([
+                        'task', 'round', 'global_round', 'acc',
+                        'prec_mic', 'prec_mac', 'prec_wei',
+                        'rec_mic', 'rec_mac', 'rec_wei',
+                        'f1_mic', 'f1_mac', 'f1_wei', 'fpr', 'loss',
+                    ])
+                _w.writerow([
+                    task, r + 1, global_round,
+                    round(metrics['accuracy'], 4),
+                    round(metrics.get('precision_micro', 0), 4),
+                    round(metrics.get('precision_macro', 0), 4),
+                    round(metrics.get('precision_weighted', 0), 4),
+                    round(metrics.get('recall_micro', 0), 4),
+                    round(metrics.get('recall_macro', 0), 4),
+                    round(metrics.get('recall_weighted', 0), 4),
+                    round(metrics.get('f1_micro', 0), 4),
+                    round(metrics.get('f1_macro', 0), 4),
+                    round(metrics.get('f1_weighted', 0), 4),
+                    round(metrics.get('fpr_weighted', 0), 4),
+                    round(avg_round_loss, 6),
+                ])
+                _f.flush()
             logger.info(
                 f"[Task {task} | Round {r+1}/{num_rounds} | Global {global_round}] "
                 f"Acc: {metrics['accuracy']:.2f}% | F1-Mac: {metrics['f1_macro']:.2f}% | Loss: {avg_round_loss:.4f}"
