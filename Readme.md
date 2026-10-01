@@ -10,6 +10,52 @@ The dataset for the experiments can be downloaded from [here](https://drive.goog
 
 ---
 
+## 🚀 Chạy lại trên Kaggle (CIC-IoT23 100-client, full) — vá lỗ f1-weighted task 0-2
+
+Bối cảnh: cac phien chay that dau tien (global round 1-81 = task 0 tron + task 1
+tron + task 2 round 1-21) dung ban code CU chi log `acc`, `f1_mac`, `loss` moi
+round. Code HIEN TAI trong `function.py`/`main.py` da tinh va ghi DU 14 cot
+(gom `f1_wei`) cho MOI round, KHONG CAN sua gi them — chi can chay lai dung
+doan 81 round nay.
+
+### 1. Setup Notebook
+* Enable **GPU T4 x2** hoac **GPU P100**.
+* Add dataset: `tongxuanvu/iot100client`.
+
+### 2. Clone & chay
+```bash
+!git clone https://github.com/TongXuanVu/Malcl-FL.git
+%cd Malcl-FL/MalCL_torch
+
+!python main.py \
+    --train_data /kaggle/input/datasets/tongxuanvu/iot100client/100client \
+    --test_data /kaggle/input/datasets/tongxuanvu/iot100client/100client/global_test_data.pt \
+    --num_clients 100
+```
+(Cac tham so khac — `nb_task 6`, `init_classes 6`, `n_inc 6`, `final_classes 34`,
+`num_rounds 30`, `seed_ 20`, `sample_select L1_C_Mean`, `Generator_loss FML` —
+deu la mac dinh, KHONG can truyen lai, de dung y het lan chay goc.)
+
+### 3. Dung lai sau round 81 (khong bat buoc chay het 180 round)
+Checkpoint (`checkpoints/ckpt_task{T:02d}_latest.pth`) va CSV
+(`metrics_round_by_round_live.csv`) duoc ghi/flush sau **MOI round**, nen dung
+giua chung an toan, khong mat du lieu. Chi can **gui output duoi dong console**
+dung luc dong `[Task 2 | Round 21/30 | Global 81] ...` xuat hien la co the bam
+Stop — luc do da du 81 round can (task 0 + task 1 + task 2 round 1-21).
+
+Neu khong muon canh console, cu de chay het 6 task (180 round) cung duoc, chi
+la ton them GPU quota (~2-3 lan so voi dung o round 81).
+
+### 4. Lay ket qua
+```bash
+!zip -r malcl_fl_task0-2_fix.zip MalCL_torch/logs/malcl_fl/cic_iot23/*/
+```
+Tai ve `metrics_round_by_round_live.csv` trong zip, gui lai de gop vao
+`Tong hop ket qua/iot100/aggregate.py` (thay cho
+`metrics_round_by_round_recovered.csv` cu, von chi co 3 cot).
+
+---
+
 * EMBER 2018 dataset    
 We use the 2018 EMBER dataset, known for its challenging classification tasks, focusing on a subset of 337,035 malicious Windows PE files labeled by the top 100
 malware families, each with over 400 samples. Features include file size, PE and COFF header details, DLL characteristics, imported and exported functions, and properties
